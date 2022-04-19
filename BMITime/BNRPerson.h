@@ -15,6 +15,7 @@
 @property (nonatomic) int weightInKilos;
 @property (nonatomic, readonly) double circumferenceOfEarth;//readonly只读属性
 @property (nonatomic, readwrite) double humanPopulation;//读写属性
+@property (nonatomic) NSMutableArray *friends;
 
 
 //{
