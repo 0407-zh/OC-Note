@@ -10,7 +10,7 @@
 
 //类扩展 Class Extension
 @interface BNREmployee () {
-    NSMutableArray *_assets;
+    NSMutableSet *_assets; //对象指针可以改变
 }
 
 @property (nonatomic) unsigned int officeAlarmCode;
@@ -30,7 +30,7 @@
 
 - (void)addAsset:(BNRAsset *)a {
     if (!_assets) {
-        _assets = [[NSMutableArray alloc] init];
+        _assets = [[NSMutableSet alloc] init];
     }
     [_assets addObject:a];
     a.holder = self;

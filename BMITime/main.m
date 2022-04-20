@@ -33,6 +33,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"BMI of %.2f, has worked with us for %.2f years", BMI, years);
         
         NSMutableArray *employees = [[NSMutableArray alloc] init];
+        NSMutableDictionary *executives = [[NSMutableDictionary alloc] init];
         
         for (int i = 0; i < 10; i++) {
             BNREmployee *derek = [[BNREmployee alloc] init];
@@ -42,6 +43,12 @@ int main(int argc, const char * argv[]) {
             derek.employeeID = i;
             
             [employees addObject:derek];
+            
+            if (i == 0) {
+                [executives setObject:derek forKey:@"CEO"];
+            } else if (i == 1) {
+                [executives setObject:derek forKey:@"CTO"];
+            }
         }
         
         NSMutableArray *allAssets = [[NSMutableArray alloc] init];
@@ -58,13 +65,28 @@ int main(int argc, const char * argv[]) {
             BNREmployee *randomEmployee = [employees objectAtIndex:randomIndex];
             
             [randomEmployee addAsset:asset];
+            [allAssets addObject:asset];
         }
+        //数组排序
+        NSSortDescriptor *voa = [NSSortDescriptor sortDescriptorWithKey:@"valueOfAssets" ascending:YES];
+        NSSortDescriptor *eid = [NSSortDescriptor sortDescriptorWithKey:@"employeeID" ascending:YES];
+        [employees sortUsingDescriptors: @[voa, eid]];
         
         NSLog(@"Employees: %@", employees);
         NSLog(@"Giving up ownership of one employee");
         [employees removeObjectAtIndex:5];
         NSLog(@"allAsset: %@", allAssets);
+        NSLog(@"executives: %@", executives);
+        NSLog(@"CEO: %@", executives[@"CEO"]);
+        NSLog(@"CTO: %@", executives[@"CTO"]);
+        
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"holder.valueOfAssets > 70"];
+        NSArray *toBeReclaimed = [allAssets filteredArrayUsingPredicate:predicate];
+        NSLog(@"toBeReclaimed: %@", toBeReclaimed);
+        
         NSLog(@"Giving up ownership of arrays");
+        executives = nil;
+        toBeReclaimed = nil;
         employees = nil;
         allAssets = nil;
     }

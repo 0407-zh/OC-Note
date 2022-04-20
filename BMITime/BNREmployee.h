@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) unsigned int employeeID;
 //@property (nonatomic) unsigned int officeAlarmCode;
 @property (nonatomic) NSDate *hireDate;
-@property (nonatomic, copy) NSArray *assets;
+@property (nonatomic, copy) NSSet *assets; //NSSet对象内容无序，且对象指针不能修改
 @property (nonatomic) NSString *lastName;
 @property (nonatomic) BNRPerson *spouse;
 @property (nonatomic) NSMutableArray *children;
