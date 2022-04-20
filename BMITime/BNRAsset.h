@@ -9,10 +9,12 @@
 #import "BNRPerson.h"
 
 NS_ASSUME_NONNULL_BEGIN
+@class BNREmployee;
 
 @interface BNRAsset : BNRPerson
 
 @property (nonatomic, copy) NSString *label;
+@property (nonatomic, weak) BNREmployee *holder;
 @property (nonatomic) unsigned int resaleValue;
 
 @end

@@ -44,6 +44,8 @@ int main(int argc, const char * argv[]) {
             [employees addObject:derek];
         }
         
+        NSMutableArray *allAssets = [[NSMutableArray alloc] init];
+        
         for (int i = 0; i < 10; i++) {
             BNRAsset *asset = [[BNRAsset alloc] init];
             
@@ -61,8 +63,11 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Employees: %@", employees);
         NSLog(@"Giving up ownership of one employee");
         [employees removeObjectAtIndex:5];
+        NSLog(@"allAsset: %@", allAssets);
         NSLog(@"Giving up ownership of arrays");
         employees = nil;
+        allAssets = nil;
     }
+    sleep(100);
     return 0;
 }
