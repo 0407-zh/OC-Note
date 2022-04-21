@@ -12,7 +12,7 @@
 
 - (void)clickPhotoButton:(UIButton *)button;
 
--(void)photoPicker:(PhotoPicker *)picker didGetImage:(UIImage *)image;
+- (void)photoPicker:(PhotoPicker *)picker didGetImage:(UIImage *)image;
 
 @end
 

@@ -14,6 +14,6 @@
 @property (nonatomic, readonly) CGFloat width;
 @property (nonatomic, readonly) CGFloat height;
 
--(CGFloat)maxY;
+- (CGFloat)maxY;
 
 @end

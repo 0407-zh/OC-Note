@@ -6,7 +6,6 @@
 //
 
 #import "PhotoPicker.h"
-#import "PhotoPicker.h"
 #import "UIView+Geometry.h"
 #import "PhotoPickerCell.h"
 #import <Photos/Photos.h>

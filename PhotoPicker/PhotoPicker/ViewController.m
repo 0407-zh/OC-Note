@@ -37,7 +37,7 @@
     [self.view addSubview:button];
 }
 
--(void)clickPhotoButton:(UIButton *)button {
+- (void)clickPhotoButton:(UIButton *)button {
     NSLog(@"Click photo button");
     
     PhotoPicker *picker = [[PhotoPicker alloc] init];
