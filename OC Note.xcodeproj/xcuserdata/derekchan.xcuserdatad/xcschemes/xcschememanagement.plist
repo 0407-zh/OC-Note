@@ -12,17 +12,22 @@
 		<key>Constants.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Date.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>File.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>MessageAgain.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>5</integer>
 		</dict>
 		<key>NSArray.xcscheme_^#shared#^_</key>
 		<dict>
@@ -32,7 +37,7 @@
 		<key>NSString.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>6</integer>
 		</dict>
 		<key>OC Note.xcscheme_^#shared#^_</key>
 		<dict>
@@ -42,7 +47,7 @@
 		<key>ObjectAndMemory.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>4</integer>
 		</dict>
 		<key>YourFirstClass.xcscheme_^#shared#^_</key>
 		<dict>
@@ -52,6 +57,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>AD100A9428128237004FC8FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AD351FBA28104BCD0033D3CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>AD9AD547280C3999004996C3</key>
 		<dict>
 			<key>primary</key>
