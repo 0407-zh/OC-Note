@@ -20,6 +20,7 @@
 		AD9AD55B280CE693004996C3 /* BNRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9AD55A280CE693004996C3 /* BNRPerson.m */; };
 		ADB422C2280B047000D5C479 /* Hostname.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB422C1280B047000D5C479 /* Hostname.m */; };
 		ADE904C028139D0B00928E68 /* BNRLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE904BF28139D0B00928E68 /* BNRLogger.m */; };
+		ADE904C82813D71100928E68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE904C72813D71100928E68 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -104,6 +105,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		ADE904C32813D71100928E68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -133,6 +143,8 @@
 		ADB422C1280B047000D5C479 /* Hostname.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hostname.m; sourceTree = "<group>"; };
 		ADE904BE28139D0B00928E68 /* BNRLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRLogger.h; sourceTree = "<group>"; };
 		ADE904BF28139D0B00928E68 /* BNRLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRLogger.m; sourceTree = "<group>"; };
+		ADE904C52813D71100928E68 /* Blocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Blocks; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE904C72813D71100928E68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +205,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ADB422BB280B047000D5C479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE904C22813D71100928E68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,6 +305,7 @@
 				AD351FBC28104BCD0033D3CC /* Constants */,
 				AD100A9628128237004FC8FD /* File */,
 				AD100AA128129116004FC8FD /* Callbacks */,
+				ADE904C62813D71100928E68 /* Blocks */,
 				ADB422BF280B047000D5C479 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -302,6 +322,7 @@
 				AD351FBB28104BCD0033D3CC /* Constants */,
 				AD100A9528128237004FC8FD /* File */,
 				AD100AA028129116004FC8FD /* Callbacks */,
+				ADE904C52813D71100928E68 /* Blocks */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -312,6 +333,14 @@
 				ADB422C1280B047000D5C479 /* Hostname.m */,
 			);
 			path = Message;
+			sourceTree = "<group>";
+		};
+		ADE904C62813D71100928E68 /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				ADE904C72813D71100928E68 /* main.m */,
+			);
+			path = Blocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -470,6 +499,23 @@
 			productReference = ADB422BE280B047000D5C479 /* Message */;
 			productType = "com.apple.product-type.tool";
 		};
+		ADE904C42813D71100928E68 /* Blocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE904C92813D71100928E68 /* Build configuration list for PBXNativeTarget "Blocks" */;
+			buildPhases = (
+				ADE904C12813D71100928E68 /* Sources */,
+				ADE904C22813D71100928E68 /* Frameworks */,
+				ADE904C32813D71100928E68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blocks;
+			productName = Blocks;
+			productReference = ADE904C52813D71100928E68 /* Blocks */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -506,6 +552,9 @@
 					ADB422BD280B047000D5C479 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
+					ADE904C42813D71100928E68 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 				};
 			};
 			buildConfigurationList = ADB422B9280B047000D5C479 /* Build configuration list for PBXProject "OC Note" */;
@@ -530,6 +579,7 @@
 				AD351FBA28104BCD0033D3CC /* Constants */,
 				AD100A9428128237004FC8FD /* File */,
 				AD100A9F28129116004FC8FD /* Callbacks */,
+				ADE904C42813D71100928E68 /* Blocks */,
 			);
 		};
 /* End PBXProject section */
@@ -608,6 +658,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADB422C2280B047000D5C479 /* Hostname.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE904C12813D71100928E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE904C82813D71100928E68 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -907,6 +965,28 @@
 			};
 			name = Release;
 		};
+		ADE904CA2813D71100928E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADE904CB2813D71100928E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -996,6 +1076,15 @@
 			buildConfigurations = (
 				ADB422C6280B047000D5C479 /* Debug */,
 				ADB422C7280B047000D5C479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE904C92813D71100928E68 /* Build configuration list for PBXNativeTarget "Blocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE904CA2813D71100928E68 /* Debug */,
+				ADE904CB2813D71100928E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -20,6 +20,16 @@ int main(int argc, const char * argv[]) {
          object:nil
          ];
         
+        //MARK: 闭包写法
+//        [[NSNotificationCenter defaultCenter]
+//         addObserverForName:NSSystemTimeZoneDidChangeNotification
+//         object:nil
+//         queue:nil
+//         usingBlock:^(NSNotification * _Nonnull note) {
+//            NSLog(@"the system time zone has changed");
+//        }
+//        ];
+        
         NSURL *url = [NSURL URLWithString:@"https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2022.pdf"];
         
         NSURLRequest *request = [NSURLRequest requestWithURL:url];
