@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD100A9828128237004FC8FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD100A9728128237004FC8FD /* main.m */; };
+		AD100AA328129116004FC8FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD100AA228129116004FC8FD /* main.m */; };
 		AD2561DD280BB80B0098F27D /* Date.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2561DC280BB80B0098F27D /* Date.m */; };
 		AD2561F6280BF2420098F27D /* TimesTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2561F5280BF2420098F27D /* TimesTwo.m */; };
 		AD351FBE28104BCD0033D3CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD351FBD28104BCD0033D3CC /* main.m */; };
@@ -18,10 +19,20 @@
 		AD9AD556280CE63B004996C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9AD555280CE63B004996C3 /* main.m */; };
 		AD9AD55B280CE693004996C3 /* BNRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9AD55A280CE693004996C3 /* BNRPerson.m */; };
 		ADB422C2280B047000D5C479 /* Hostname.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB422C1280B047000D5C479 /* Hostname.m */; };
+		ADE904C028139D0B00928E68 /* BNRLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE904BF28139D0B00928E68 /* BNRLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		AD100A9328128237004FC8FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AD100A9E28129116004FC8FD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -98,6 +109,8 @@
 /* Begin PBXFileReference section */
 		AD100A9528128237004FC8FD /* File */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = File; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD100A9728128237004FC8FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD100AA028129116004FC8FD /* Callbacks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Callbacks; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD100AA228129116004FC8FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD2561DA280BB80B0098F27D /* MessageAgain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MessageAgain; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2561DC280BB80B0098F27D /* Date.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Date.m; sourceTree = "<group>"; };
 		AD2561F3280BF2420098F27D /* ObjectAndMemory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectAndMemory; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,10 +131,19 @@
 		AD9AD55C280CE6AF004996C3 /* BNRPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRPerson.h; sourceTree = "<group>"; };
 		ADB422BE280B047000D5C479 /* Message */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Message; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB422C1280B047000D5C479 /* Hostname.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hostname.m; sourceTree = "<group>"; };
+		ADE904BE28139D0B00928E68 /* BNRLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRLogger.h; sourceTree = "<group>"; };
+		ADE904BF28139D0B00928E68 /* BNRLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRLogger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AD100A9228128237004FC8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD100A9D28129116004FC8FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -186,6 +208,16 @@
 				AD100A9728128237004FC8FD /* main.m */,
 			);
 			path = File;
+			sourceTree = "<group>";
+		};
+		AD100AA128129116004FC8FD /* Callbacks */ = {
+			isa = PBXGroup;
+			children = (
+				AD100AA228129116004FC8FD /* main.m */,
+				ADE904BE28139D0B00928E68 /* BNRLogger.h */,
+				ADE904BF28139D0B00928E68 /* BNRLogger.m */,
+			);
+			path = Callbacks;
 			sourceTree = "<group>";
 		};
 		AD2561DB280BB80B0098F27D /* MessageAgain */ = {
@@ -253,6 +285,7 @@
 				AD9AD554280CE63B004996C3 /* BMITime */,
 				AD351FBC28104BCD0033D3CC /* Constants */,
 				AD100A9628128237004FC8FD /* File */,
+				AD100AA128129116004FC8FD /* Callbacks */,
 				ADB422BF280B047000D5C479 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -268,6 +301,7 @@
 				AD9AD553280CE63B004996C3 /* BMITime */,
 				AD351FBB28104BCD0033D3CC /* Constants */,
 				AD100A9528128237004FC8FD /* File */,
+				AD100AA028129116004FC8FD /* Callbacks */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -298,6 +332,23 @@
 			name = File;
 			productName = File;
 			productReference = AD100A9528128237004FC8FD /* File */;
+			productType = "com.apple.product-type.tool";
+		};
+		AD100A9F28129116004FC8FD /* Callbacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD100AA428129116004FC8FD /* Build configuration list for PBXNativeTarget "Callbacks" */;
+			buildPhases = (
+				AD100A9C28129116004FC8FD /* Sources */,
+				AD100A9D28129116004FC8FD /* Frameworks */,
+				AD100A9E28129116004FC8FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Callbacks;
+			productName = Callbacks;
+			productReference = AD100AA028129116004FC8FD /* Callbacks */;
 			productType = "com.apple.product-type.tool";
 		};
 		AD2561D9280BB80B0098F27D /* MessageAgain */ = {
@@ -431,6 +482,9 @@
 					AD100A9428128237004FC8FD = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
+					AD100A9F28129116004FC8FD = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 					AD2561D9280BB80B0098F27D = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -475,6 +529,7 @@
 				AD9AD552280CE63B004996C3 /* BMITime */,
 				AD351FBA28104BCD0033D3CC /* Constants */,
 				AD100A9428128237004FC8FD /* File */,
+				AD100A9F28129116004FC8FD /* Callbacks */,
 			);
 		};
 /* End PBXProject section */
@@ -485,6 +540,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD100A9828128237004FC8FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD100A9C28129116004FC8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE904C028139D0B00928E68 /* BNRLogger.m in Sources */,
+				AD100AA328129116004FC8FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,6 +626,28 @@
 			name = Debug;
 		};
 		AD100A9A28128237004FC8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD100AA528129116004FC8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD100AA628129116004FC8FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -829,6 +915,15 @@
 			buildConfigurations = (
 				AD100A9928128237004FC8FD /* Debug */,
 				AD100A9A28128237004FC8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD100AA428129116004FC8FD /* Build configuration list for PBXNativeTarget "Callbacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD100AA528129116004FC8FD /* Debug */,
+				AD100AA628129116004FC8FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

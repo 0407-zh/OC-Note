@@ -1,0 +1,40 @@
+//
+//  main.m
+//  Callbacks
+//
+//  Created by 陳峻琦 on 22/4/2022.
+//
+
+#import <Foundation/Foundation.h>
+#import "BNRLogger.h"
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        //创建一个拥有NSRunLoop对象和NSTimer对象的程序。每隔两秒NSTimer对象会向其目标发送指定的动作消息
+        BNRLogger *logger = [BNRLogger new];
+        
+        [[NSNotificationCenter defaultCenter]
+         addObserver:logger
+         selector:@selector(zoneChange:)
+         name:NSSystemTimeZoneDidChangeNotification
+         object:nil
+         ];
+        
+        NSURL *url = [NSURL URLWithString:@"https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2022.pdf"];
+        
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        
+        __unused NSURLConnection *fetchConn = [[NSURLConnection alloc] initWithRequest:request
+                                                                              delegate:logger
+                                                                      startImmediately:YES];
+        
+        __unused NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:2.0
+                                                          target:logger
+                                                        selector:@selector(updateLastTime:)
+                                                        userInfo:nil
+                                                         repeats:YES];
+        
+        [[NSRunLoop currentRunLoop] run];
+    }
+    return 0;
+}

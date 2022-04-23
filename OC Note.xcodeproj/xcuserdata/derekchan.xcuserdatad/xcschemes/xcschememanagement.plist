@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Callbacks.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>Challenge.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -22,12 +27,12 @@
 		<key>File.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>4</integer>
 		</dict>
 		<key>MessageAgain.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>8</integer>
 		</dict>
 		<key>NSArray.xcscheme_^#shared#^_</key>
 		<dict>
@@ -37,7 +42,7 @@
 		<key>NSString.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>7</integer>
 		</dict>
 		<key>OC Note.xcscheme_^#shared#^_</key>
 		<dict>
@@ -47,7 +52,7 @@
 		<key>ObjectAndMemory.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>6</integer>
 		</dict>
 		<key>YourFirstClass.xcscheme_^#shared#^_</key>
 		<dict>
