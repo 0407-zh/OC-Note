@@ -21,6 +21,9 @@
 		ADB422C2280B047000D5C479 /* Hostname.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB422C1280B047000D5C479 /* Hostname.m */; };
 		ADE904C028139D0B00928E68 /* BNRLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE904BF28139D0B00928E68 /* BNRLogger.m */; };
 		ADE904C82813D71100928E68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE904C72813D71100928E68 /* main.m */; };
+		ADE904D32814108C00928E68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE904D22814108C00928E68 /* main.m */; };
+		ADE904D9281410FB00928E68 /* BNRAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE904D8281410FB00928E68 /* BNRAppliance.m */; };
+		ADEE05ED2814DC1E008B1421 /* BNROwnedAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEE05EC2814DC1E008B1421 /* BNROwnedAppliance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -114,6 +117,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		ADE904CE2814108C00928E68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -145,6 +157,12 @@
 		ADE904BF28139D0B00928E68 /* BNRLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRLogger.m; sourceTree = "<group>"; };
 		ADE904C52813D71100928E68 /* Blocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Blocks; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE904C72813D71100928E68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADE904D02814108C00928E68 /* init */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = init; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE904D22814108C00928E68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADE904D7281410FB00928E68 /* BNRAppliance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppliance.h; sourceTree = "<group>"; };
+		ADE904D8281410FB00928E68 /* BNRAppliance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppliance.m; sourceTree = "<group>"; };
+		ADEE05EB2814DC1E008B1421 /* BNROwnedAppliance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNROwnedAppliance.h; sourceTree = "<group>"; };
+		ADEE05EC2814DC1E008B1421 /* BNROwnedAppliance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNROwnedAppliance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +230,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ADE904C22813D71100928E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE904CD2814108C00928E68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,6 +331,7 @@
 				AD100A9628128237004FC8FD /* File */,
 				AD100AA128129116004FC8FD /* Callbacks */,
 				ADE904C62813D71100928E68 /* Blocks */,
+				ADE904D12814108C00928E68 /* init */,
 				ADB422BF280B047000D5C479 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -323,6 +349,7 @@
 				AD100A9528128237004FC8FD /* File */,
 				AD100AA028129116004FC8FD /* Callbacks */,
 				ADE904C52813D71100928E68 /* Blocks */,
+				ADE904D02814108C00928E68 /* init */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -341,6 +368,18 @@
 				ADE904C72813D71100928E68 /* main.m */,
 			);
 			path = Blocks;
+			sourceTree = "<group>";
+		};
+		ADE904D12814108C00928E68 /* init */ = {
+			isa = PBXGroup;
+			children = (
+				ADE904D22814108C00928E68 /* main.m */,
+				ADE904D7281410FB00928E68 /* BNRAppliance.h */,
+				ADE904D8281410FB00928E68 /* BNRAppliance.m */,
+				ADEE05EB2814DC1E008B1421 /* BNROwnedAppliance.h */,
+				ADEE05EC2814DC1E008B1421 /* BNROwnedAppliance.m */,
+			);
+			path = init;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -516,6 +555,23 @@
 			productReference = ADE904C52813D71100928E68 /* Blocks */;
 			productType = "com.apple.product-type.tool";
 		};
+		ADE904CF2814108C00928E68 /* init */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE904D42814108C00928E68 /* Build configuration list for PBXNativeTarget "init" */;
+			buildPhases = (
+				ADE904CC2814108C00928E68 /* Sources */,
+				ADE904CD2814108C00928E68 /* Frameworks */,
+				ADE904CE2814108C00928E68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = init;
+			productName = init;
+			productReference = ADE904D02814108C00928E68 /* init */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -555,6 +611,9 @@
 					ADE904C42813D71100928E68 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
+					ADE904CF2814108C00928E68 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 				};
 			};
 			buildConfigurationList = ADB422B9280B047000D5C479 /* Build configuration list for PBXProject "OC Note" */;
@@ -580,6 +639,7 @@
 				AD100A9428128237004FC8FD /* File */,
 				AD100A9F28129116004FC8FD /* Callbacks */,
 				ADE904C42813D71100928E68 /* Blocks */,
+				ADE904CF2814108C00928E68 /* init */,
 			);
 		};
 /* End PBXProject section */
@@ -666,6 +726,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADE904C82813D71100928E68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE904CC2814108C00928E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE904D9281410FB00928E68 /* BNRAppliance.m in Sources */,
+				ADEE05ED2814DC1E008B1421 /* BNROwnedAppliance.m in Sources */,
+				ADE904D32814108C00928E68 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -987,6 +1057,28 @@
 			};
 			name = Release;
 		};
+		ADE904D52814108C00928E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADE904D62814108C00928E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1085,6 +1177,15 @@
 			buildConfigurations = (
 				ADE904CA2813D71100928E68 /* Debug */,
 				ADE904CB2813D71100928E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE904D42814108C00928E68 /* Build configuration list for PBXNativeTarget "init" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE904D52814108C00928E68 /* Debug */,
+				ADE904D62814108C00928E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
