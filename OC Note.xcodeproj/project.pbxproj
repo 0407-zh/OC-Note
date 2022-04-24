@@ -24,6 +24,7 @@
 		ADE904D32814108C00928E68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE904D22814108C00928E68 /* main.m */; };
 		ADE904D9281410FB00928E68 /* BNRAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE904D8281410FB00928E68 /* BNRAppliance.m */; };
 		ADEE05ED2814DC1E008B1421 /* BNROwnedAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEE05EC2814DC1E008B1421 /* BNROwnedAppliance.m */; };
+		ADEE05F02814E60A008B1421 /* BNRObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEE05EF2814E60A008B1421 /* BNRObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -163,6 +164,8 @@
 		ADE904D8281410FB00928E68 /* BNRAppliance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppliance.m; sourceTree = "<group>"; };
 		ADEE05EB2814DC1E008B1421 /* BNROwnedAppliance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNROwnedAppliance.h; sourceTree = "<group>"; };
 		ADEE05EC2814DC1E008B1421 /* BNROwnedAppliance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNROwnedAppliance.m; sourceTree = "<group>"; };
+		ADEE05EE2814E60A008B1421 /* BNRObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRObserver.h; sourceTree = "<group>"; };
+		ADEE05EF2814E60A008B1421 /* BNRObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +261,8 @@
 			isa = PBXGroup;
 			children = (
 				AD100AA228129116004FC8FD /* main.m */,
+				ADEE05EE2814E60A008B1421 /* BNRObserver.h */,
+				ADEE05EF2814E60A008B1421 /* BNRObserver.m */,
 				ADE904BE28139D0B00928E68 /* BNRLogger.h */,
 				ADE904BF28139D0B00928E68 /* BNRLogger.m */,
 			);
@@ -658,6 +663,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADE904C028139D0B00928E68 /* BNRLogger.m in Sources */,
+				ADEE05F02814E60A008B1421 /* BNRObserver.m in Sources */,
 				AD100AA328129116004FC8FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
