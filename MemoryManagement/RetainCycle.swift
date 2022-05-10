@@ -1,23 +1,21 @@
 import Foundation
+import UIKit
 
-class Shop {
-    var str: String
-    var myBlock: ((String) -> ())
-    
-    init() {
-        
-    }
-    
+class Window {
+ weak var rootView: View?
+ var onRotate: (() -> ())? = nil
 }
 
-//解决循环引用的三种方法
+var window: Window? = Window()
 
-//1
-let shop: Shop = Shop()
-weak var weakShop: Shop? = shop
+var view: View? = View(window: window)
 
-weakShop?.myBlock = {
-    print("")
-    
+//产生循环引用
+window?.onRotate = {
+ print("We now also need to update the view: \(String(describing: view))")
 }
 
+//指向window的弱引用变量，避免循环引用
+window?.onRotate = { [weak view] in
+ print("We now also need to update the view: \(String(describing: view))")
+}
