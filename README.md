@@ -1,10 +1,16 @@
 ### Roadmap
-![](roadmapv0.png)
+![](roadmapv1.png)
+
+#### 计算机基础
+
+* [设计模式](https://refactoringguru.cn/design-patterns)
 #### 语言
 
 * [Objective C](Objective-C)
 
 * Swift
+
+  * [异步与并发](https://juejin.cn/post/7091099801668255774)
 
 * 内存管理
 
@@ -78,4 +84,5 @@
   * [Swift](https://objccn.io/products/advanced-swift/)
 
   * [SwiftUI](https://developer.apple.com/tutorials/swiftui)
+
 #### 持续更新...
