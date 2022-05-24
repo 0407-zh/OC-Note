@@ -7,6 +7,8 @@
 #### 语言
 
 * [Objective C](Objective-C)
+  
+  * [Google Objective-C Style Guide](https://zh-google-styleguide.readthedocs.io/en/latest/google-objc-styleguide/contents/)
 
 * Swift
 
@@ -79,10 +81,12 @@
 
 * 学习资料
 
-  * [Objective C](Objective-C/Objective-C编程第2版.pdf)
+  * [Objective-C 编程](Objective-C/Objective-C编程第2版.pdf)
 
-  * [Swift](https://objccn.io/products/advanced-swift/)
+  * [Swift 进阶](https://objccn.io/products/advanced-swift/)
 
-  * [SwiftUI](https://developer.apple.com/tutorials/swiftui)
+  * [SwiftUI Apple官方教程](https://developer.apple.com/tutorials/swiftui)
+
+  * [HEAD FIRST 设计模式](Others/HEAD_FIRST设计模式.pdf)
 
 #### 持续更新...
