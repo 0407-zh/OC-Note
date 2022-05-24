@@ -19,6 +19,8 @@
 		AD9AD556280CE63B004996C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9AD555280CE63B004996C3 /* main.m */; };
 		AD9AD55B280CE693004996C3 /* BNRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9AD55A280CE693004996C3 /* BNRPerson.m */; };
 		ADB422C2280B047000D5C479 /* Hostname.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB422C1280B047000D5C479 /* Hostname.m */; };
+		ADE66096283C8E080064C431 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ADE66095283C8E080064C431 /* main.c */; };
+		ADE660A1283CB0520064C431 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ADE660A0283CB0520064C431 /* main.c */; };
 		ADE904C028139D0B00928E68 /* BNRLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE904BF28139D0B00928E68 /* BNRLogger.m */; };
 		ADE904C82813D71100928E68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE904C72813D71100928E68 /* main.m */; };
 		ADE904D32814108C00928E68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE904D22814108C00928E68 /* main.m */; };
@@ -111,6 +113,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		ADE66091283C8E080064C431 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ADE6609C283CB0520064C431 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		ADE904C32813D71100928E68 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -165,6 +185,10 @@
 		AD9AD55C280CE6AF004996C3 /* BNRPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRPerson.h; sourceTree = "<group>"; };
 		ADB422BE280B047000D5C479 /* Message */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Message; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB422C1280B047000D5C479 /* Hostname.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hostname.m; sourceTree = "<group>"; };
+		ADE66093283C8E080064C431 /* Pointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pointer; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE66095283C8E080064C431 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		ADE6609E283CB0520064C431 /* Heap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Heap; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE660A0283CB0520064C431 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		ADE904BE28139D0B00928E68 /* BNRLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRLogger.h; sourceTree = "<group>"; };
 		ADE904BF28139D0B00928E68 /* BNRLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRLogger.m; sourceTree = "<group>"; };
 		ADE904C52813D71100928E68 /* Blocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Blocks; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,6 +265,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ADB422BB280B047000D5C479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE66090283C8E080064C431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE6609B283CB0520064C431 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,6 +398,8 @@
 				ADE904C62813D71100928E68 /* Blocks */,
 				ADE904D12814108C00928E68 /* init */,
 				ADEE05F62814E936008B1421 /* Categories */,
+				ADE66094283C8E080064C431 /* Pointer */,
+				ADE6609F283CB0520064C431 /* Heap */,
 				ADB422BF280B047000D5C479 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -379,6 +419,8 @@
 				ADE904C52813D71100928E68 /* Blocks */,
 				ADE904D02814108C00928E68 /* init */,
 				ADEE05F52814E936008B1421 /* Categories */,
+				ADE66093283C8E080064C431 /* Pointer */,
+				ADE6609E283CB0520064C431 /* Heap */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -389,6 +431,22 @@
 				ADB422C1280B047000D5C479 /* Hostname.m */,
 			);
 			path = Message;
+			sourceTree = "<group>";
+		};
+		ADE66094283C8E080064C431 /* Pointer */ = {
+			isa = PBXGroup;
+			children = (
+				ADE66095283C8E080064C431 /* main.c */,
+			);
+			path = Pointer;
+			sourceTree = "<group>";
+		};
+		ADE6609F283CB0520064C431 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				ADE660A0283CB0520064C431 /* main.c */,
+			);
+			path = Heap;
 			sourceTree = "<group>";
 		};
 		ADE904C62813D71100928E68 /* Blocks */ = {
@@ -577,6 +635,40 @@
 			productReference = ADB422BE280B047000D5C479 /* Message */;
 			productType = "com.apple.product-type.tool";
 		};
+		ADE66092283C8E080064C431 /* Pointer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE66099283C8E080064C431 /* Build configuration list for PBXNativeTarget "Pointer" */;
+			buildPhases = (
+				ADE6608F283C8E080064C431 /* Sources */,
+				ADE66090283C8E080064C431 /* Frameworks */,
+				ADE66091283C8E080064C431 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pointer;
+			productName = Pointer;
+			productReference = ADE66093283C8E080064C431 /* Pointer */;
+			productType = "com.apple.product-type.tool";
+		};
+		ADE6609D283CB0520064C431 /* Heap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE660A2283CB0520064C431 /* Build configuration list for PBXNativeTarget "Heap" */;
+			buildPhases = (
+				ADE6609A283CB0520064C431 /* Sources */,
+				ADE6609B283CB0520064C431 /* Frameworks */,
+				ADE6609C283CB0520064C431 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heap;
+			productName = Heap;
+			productReference = ADE6609E283CB0520064C431 /* Heap */;
+			productType = "com.apple.product-type.tool";
+		};
 		ADE904C42813D71100928E68 /* Blocks */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADE904C92813D71100928E68 /* Build configuration list for PBXNativeTarget "Blocks" */;
@@ -664,6 +756,12 @@
 					ADB422BD280B047000D5C479 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
+					ADE66092283C8E080064C431 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					ADE6609D283CB0520064C431 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 					ADE904C42813D71100928E68 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -700,6 +798,8 @@
 				ADE904C42813D71100928E68 /* Blocks */,
 				ADE904CF2814108C00928E68 /* init */,
 				ADEE05F42814E936008B1421 /* Categories */,
+				ADE66092283C8E080064C431 /* Pointer */,
+				ADE6609D283CB0520064C431 /* Heap */,
 			);
 		};
 /* End PBXProject section */
@@ -779,6 +879,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADB422C2280B047000D5C479 /* Hostname.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE6608F283C8E080064C431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE66096283C8E080064C431 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE6609A283CB0520064C431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE660A1283CB0520064C431 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1105,6 +1221,50 @@
 			};
 			name = Release;
 		};
+		ADE66097283C8E080064C431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADE66098283C8E080064C431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADE660A3283CB0520064C431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADE660A4283CB0520064C431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		ADE904CA2813D71100928E68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1260,6 +1420,24 @@
 			buildConfigurations = (
 				ADB422C6280B047000D5C479 /* Debug */,
 				ADB422C7280B047000D5C479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE66099283C8E080064C431 /* Build configuration list for PBXNativeTarget "Pointer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE66097283C8E080064C431 /* Debug */,
+				ADE66098283C8E080064C431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE660A2283CB0520064C431 /* Build configuration list for PBXNativeTarget "Heap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE660A3283CB0520064C431 /* Debug */,
+				ADE660A4283CB0520064C431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
