@@ -22,7 +22,7 @@
 
   * [循环引用](https://zhuanlan.zhihu.com/p/22299084?from=from_parent_mindnote)
 
-* 框架
+#### 框架
 
   * UIKit
 
@@ -32,7 +32,7 @@
 
   * AVFoundation
 
-* 网络编程
+#### 网络编程
 
   * JSON
 
@@ -44,7 +44,7 @@
 
   * [Alamofire](https://github.com/Alamofire/Alamofire)
 
-* 架构
+#### 架构
 
   * MVC
 
@@ -52,7 +52,7 @@
 
   * Redux
 
-* 持久化
+#### 持久化
 
   * NSUserDefaults
 
@@ -64,8 +64,9 @@
 
     * Realm
 
-* 工具链
-  * Git
+#### 工具链
+
+  * [Git](ToolChain/learngit.md)
 
   * CocoaPods
 
@@ -80,6 +81,8 @@
 * [形参和实参的区别](Others/Arguments&Parameters.md)
 
 * 学习资料
+
+  * [iOS Zen](https://github.com/100mango/zen)
 
   * [Objective-C 编程](Objective-C/Objective-C编程第2版.pdf)
 
