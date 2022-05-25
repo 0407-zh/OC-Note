@@ -1,5 +1,5 @@
 ### Roadmap
-![](roadmapv1.png)
+![](Resource/roadmapv1.png)
 
 #### 计算机基础
 
@@ -91,5 +91,7 @@
   * [SwiftUI Apple官方教程](https://developer.apple.com/tutorials/swiftui)
 
   * [HEAD FIRST 设计模式](Others/HEAD_FIRST设计模式.pdf)
+
+  * [廖雪峰的网站](https://www.liaoxuefeng.com)
 
 #### 持续更新...
