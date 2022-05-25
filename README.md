@@ -4,6 +4,15 @@
 #### 计算机基础
 
 * [设计模式](https://refactoringguru.cn/design-patterns)
+
+  * [HEAD FIRST 设计模式 源码OC版](HeadFirstDesignPatternsOC)
+
+    * [策略模式](HeadFirstDesignPatternsOC/StrategyPattern)
+
+  * [HEAD FIRST 设计模式 源码Java版](HeadFirstDesignPatternsJava)
+
+    * [策略模式](HeadFirstDesignPatternsJava/HeadFirst/src/StrategyPattern)
+
 #### 语言
 
 * [Objective C](Objective-C)
