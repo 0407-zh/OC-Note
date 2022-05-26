@@ -17,10 +17,23 @@
 		AD45EEAD283E4A01002E2BCE /* MuteQuack.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45EEAC283E4A01002E2BCE /* MuteQuack.m */; };
 		AD45EEB0283E4B57002E2BCE /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45EEAF283E4B57002E2BCE /* MallardDuck.m */; };
 		AD45EEB3283E4B81002E2BCE /* ModelDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45EEB2283E4B81002E2BCE /* ModelDuck.m */; };
+		ADB48FEE283F47FF00EC7289 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48FED283F47FF00EC7289 /* main.m */; };
+		ADB48FF2283F492200EC7289 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48FF1283F492200EC7289 /* WeatherData.m */; };
+		ADB48FF7283F4EB200EC7289 /* CurrentCondationsDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48FF6283F4EB200EC7289 /* CurrentCondationsDisplay.m */; };
+		ADB48FFA283F53D100EC7289 /* ForecastDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48FF9283F53D100EC7289 /* ForecastDisplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		AD3D71CC283E3ECB003C0E2A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ADB48FE4283F47B000EC7289 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -54,10 +67,28 @@
 		AD45EEAF283E4B57002E2BCE /* MallardDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
 		AD45EEB1283E4B81002E2BCE /* ModelDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelDuck.h; sourceTree = "<group>"; };
 		AD45EEB2283E4B81002E2BCE /* ModelDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelDuck.m; sourceTree = "<group>"; };
+		ADB48FE6283F47B000EC7289 /* ObserverPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObserverPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB48FED283F47FF00EC7289 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADB48FEF283F486500EC7289 /* Subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		ADB48FF0283F492200EC7289 /* WeatherData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherData.h; sourceTree = "<group>"; };
+		ADB48FF1283F492200EC7289 /* WeatherData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherData.m; sourceTree = "<group>"; };
+		ADB48FF3283F4AE300EC7289 /* Observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		ADB48FF4283F4E4200EC7289 /* DisplayElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayElement.h; sourceTree = "<group>"; };
+		ADB48FF5283F4EB200EC7289 /* CurrentCondationsDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrentCondationsDisplay.h; sourceTree = "<group>"; };
+		ADB48FF6283F4EB200EC7289 /* CurrentCondationsDisplay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentCondationsDisplay.m; sourceTree = "<group>"; };
+		ADB48FF8283F53D100EC7289 /* ForecastDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForecastDisplay.h; sourceTree = "<group>"; };
+		ADB48FF9283F53D100EC7289 /* ForecastDisplay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForecastDisplay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AD3D71CB283E3ECB003C0E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB48FE3283F47B000EC7289 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				AD3D71D0283E3ECC003C0E2A /* StrategyPattern */,
+				ADB48FE7283F47B000EC7289 /* ObserverPattern */,
 				AD3D71CF283E3ECC003C0E2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				AD3D71CE283E3ECC003C0E2A /* StrategyPattern */,
+				ADB48FE6283F47B000EC7289 /* ObserverPattern */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +168,23 @@
 			path = Duck;
 			sourceTree = "<group>";
 		};
+		ADB48FE7283F47B000EC7289 /* ObserverPattern */ = {
+			isa = PBXGroup;
+			children = (
+				ADB48FED283F47FF00EC7289 /* main.m */,
+				ADB48FEF283F486500EC7289 /* Subject.h */,
+				ADB48FF3283F4AE300EC7289 /* Observer.h */,
+				ADB48FF4283F4E4200EC7289 /* DisplayElement.h */,
+				ADB48FF0283F492200EC7289 /* WeatherData.h */,
+				ADB48FF1283F492200EC7289 /* WeatherData.m */,
+				ADB48FF5283F4EB200EC7289 /* CurrentCondationsDisplay.h */,
+				ADB48FF6283F4EB200EC7289 /* CurrentCondationsDisplay.m */,
+				ADB48FF8283F53D100EC7289 /* ForecastDisplay.h */,
+				ADB48FF9283F53D100EC7289 /* ForecastDisplay.m */,
+			);
+			path = ObserverPattern;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,6 +205,23 @@
 			productReference = AD3D71CE283E3ECC003C0E2A /* StrategyPattern */;
 			productType = "com.apple.product-type.tool";
 		};
+		ADB48FE5283F47B000EC7289 /* ObserverPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB48FEA283F47B000EC7289 /* Build configuration list for PBXNativeTarget "ObserverPattern" */;
+			buildPhases = (
+				ADB48FE2283F47B000EC7289 /* Sources */,
+				ADB48FE3283F47B000EC7289 /* Frameworks */,
+				ADB48FE4283F47B000EC7289 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObserverPattern;
+			productName = ObserverPattern;
+			productReference = ADB48FE6283F47B000EC7289 /* ObserverPattern */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +232,9 @@
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					AD3D71CD283E3ECB003C0E2A = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					ADB48FE5283F47B000EC7289 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
@@ -183,6 +253,7 @@
 			projectRoot = "";
 			targets = (
 				AD3D71CD283E3ECB003C0E2A /* StrategyPattern */,
+				ADB48FE5283F47B000EC7289 /* ObserverPattern */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +273,17 @@
 				AD3D71E3283E4206003C0E2A /* Duck.m in Sources */,
 				AD45EEAD283E4A01002E2BCE /* MuteQuack.m in Sources */,
 				AD3D71D2283E3ECC003C0E2A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB48FE2283F47B000EC7289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB48FF2283F492200EC7289 /* WeatherData.m in Sources */,
+				ADB48FFA283F53D100EC7289 /* ForecastDisplay.m in Sources */,
+				ADB48FF7283F4EB200EC7289 /* CurrentCondationsDisplay.m in Sources */,
+				ADB48FEE283F47FF00EC7289 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +419,26 @@
 			};
 			name = Release;
 		};
+		ADB48FEB283F47B000EC7289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADB48FEC283F47B000EC7289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -354,6 +456,15 @@
 			buildConfigurations = (
 				AD3D71D6283E3ECC003C0E2A /* Debug */,
 				AD3D71D7283E3ECC003C0E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB48FEA283F47B000EC7289 /* Build configuration list for PBXNativeTarget "ObserverPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB48FEB283F47B000EC7289 /* Debug */,
+				ADB48FEC283F47B000EC7289 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
