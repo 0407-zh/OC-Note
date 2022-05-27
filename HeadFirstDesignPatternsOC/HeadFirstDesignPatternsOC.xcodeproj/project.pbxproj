@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD16ACA62840B079005A26DC /* HouseBlend.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACA52840B079005A26DC /* HouseBlend.m */; };
+		AD16ACA92840B25A005A26DC /* Condiment.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACA82840B25A005A26DC /* Condiment.m */; };
+		AD16ACAC2840B36C005A26DC /* Espresso.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACAB2840B36C005A26DC /* Espresso.m */; };
+		AD16ACAF2840B499005A26DC /* Mocha.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACAE2840B499005A26DC /* Mocha.m */; };
+		AD16ACB22840B533005A26DC /* Soy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACB12840B533005A26DC /* Soy.m */; };
 		AD3D71D2283E3ECC003C0E2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3D71D1283E3ECC003C0E2A /* main.m */; };
 		AD3D71E3283E4206003C0E2A /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3D71E2283E4206003C0E2A /* Duck.m */; };
 		AD45EE9E283E486B002E2BCE /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45EE9D283E486B002E2BCE /* FlyNoWay.m */; };
@@ -17,6 +22,8 @@
 		AD45EEAD283E4A01002E2BCE /* MuteQuack.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45EEAC283E4A01002E2BCE /* MuteQuack.m */; };
 		AD45EEB0283E4B57002E2BCE /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45EEAF283E4B57002E2BCE /* MallardDuck.m */; };
 		AD45EEB3283E4B81002E2BCE /* ModelDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45EEB2283E4B81002E2BCE /* ModelDuck.m */; };
+		AD5763A52840A0690015D670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5763A42840A0690015D670 /* main.m */; };
+		AD5763AB2840A59A0015D670 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5763AA2840A59A0015D670 /* Beverage.m */; };
 		ADB48FEE283F47FF00EC7289 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48FED283F47FF00EC7289 /* main.m */; };
 		ADB48FF2283F492200EC7289 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48FF1283F492200EC7289 /* WeatherData.m */; };
 		ADB48FF7283F4EB200EC7289 /* CurrentCondationsDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48FF6283F4EB200EC7289 /* CurrentCondationsDisplay.m */; };
@@ -25,6 +32,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		AD3D71CC283E3ECB003C0E2A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AD5763A02840A0690015D670 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -45,6 +61,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD16ACA42840B079005A26DC /* HouseBlend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseBlend.h; sourceTree = "<group>"; };
+		AD16ACA52840B079005A26DC /* HouseBlend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseBlend.m; sourceTree = "<group>"; };
+		AD16ACA72840B25A005A26DC /* Condiment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Condiment.h; sourceTree = "<group>"; };
+		AD16ACA82840B25A005A26DC /* Condiment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Condiment.m; sourceTree = "<group>"; };
+		AD16ACAA2840B36C005A26DC /* Espresso.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Espresso.h; sourceTree = "<group>"; };
+		AD16ACAB2840B36C005A26DC /* Espresso.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Espresso.m; sourceTree = "<group>"; };
+		AD16ACAD2840B499005A26DC /* Mocha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mocha.h; sourceTree = "<group>"; };
+		AD16ACAE2840B499005A26DC /* Mocha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mocha.m; sourceTree = "<group>"; };
+		AD16ACB02840B533005A26DC /* Soy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soy.h; sourceTree = "<group>"; };
+		AD16ACB12840B533005A26DC /* Soy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Soy.m; sourceTree = "<group>"; };
 		AD3D71CE283E3ECC003C0E2A /* StrategyPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StrategyPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3D71D1283E3ECC003C0E2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD3D71D8283E40C4003C0E2A /* FlyBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyBehavior.h; sourceTree = "<group>"; };
@@ -67,6 +93,10 @@
 		AD45EEAF283E4B57002E2BCE /* MallardDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
 		AD45EEB1283E4B81002E2BCE /* ModelDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelDuck.h; sourceTree = "<group>"; };
 		AD45EEB2283E4B81002E2BCE /* ModelDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelDuck.m; sourceTree = "<group>"; };
+		AD5763A22840A0690015D670 /* DecoratorPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DecoratorPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5763A42840A0690015D670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD5763A92840A59A0015D670 /* Beverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Beverage.h; sourceTree = "<group>"; };
+		AD5763AA2840A59A0015D670 /* Beverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beverage.m; sourceTree = "<group>"; };
 		ADB48FE6283F47B000EC7289 /* ObserverPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObserverPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB48FED283F47FF00EC7289 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADB48FEF283F486500EC7289 /* Subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
@@ -88,6 +118,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD57639F2840A0690015D670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ADB48FE3283F47B000EC7289 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,6 +140,7 @@
 			children = (
 				AD3D71D0283E3ECC003C0E2A /* StrategyPattern */,
 				ADB48FE7283F47B000EC7289 /* ObserverPattern */,
+				AD5763A32840A0690015D670 /* DecoratorPattern */,
 				AD3D71CF283E3ECC003C0E2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +150,7 @@
 			children = (
 				AD3D71CE283E3ECC003C0E2A /* StrategyPattern */,
 				ADB48FE6283F47B000EC7289 /* ObserverPattern */,
+				AD5763A22840A0690015D670 /* DecoratorPattern */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +207,26 @@
 			path = Duck;
 			sourceTree = "<group>";
 		};
+		AD5763A32840A0690015D670 /* DecoratorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				AD5763A42840A0690015D670 /* main.m */,
+				AD5763A92840A59A0015D670 /* Beverage.h */,
+				AD5763AA2840A59A0015D670 /* Beverage.m */,
+				AD16ACA72840B25A005A26DC /* Condiment.h */,
+				AD16ACA82840B25A005A26DC /* Condiment.m */,
+				AD16ACA42840B079005A26DC /* HouseBlend.h */,
+				AD16ACA52840B079005A26DC /* HouseBlend.m */,
+				AD16ACAA2840B36C005A26DC /* Espresso.h */,
+				AD16ACAB2840B36C005A26DC /* Espresso.m */,
+				AD16ACAD2840B499005A26DC /* Mocha.h */,
+				AD16ACAE2840B499005A26DC /* Mocha.m */,
+				AD16ACB02840B533005A26DC /* Soy.h */,
+				AD16ACB12840B533005A26DC /* Soy.m */,
+			);
+			path = DecoratorPattern;
+			sourceTree = "<group>";
+		};
 		ADB48FE7283F47B000EC7289 /* ObserverPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +264,23 @@
 			productReference = AD3D71CE283E3ECC003C0E2A /* StrategyPattern */;
 			productType = "com.apple.product-type.tool";
 		};
+		AD5763A12840A0690015D670 /* DecoratorPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5763A82840A0690015D670 /* Build configuration list for PBXNativeTarget "DecoratorPattern" */;
+			buildPhases = (
+				AD57639E2840A0690015D670 /* Sources */,
+				AD57639F2840A0690015D670 /* Frameworks */,
+				AD5763A02840A0690015D670 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecoratorPattern;
+			productName = DecoratorPattern;
+			productReference = AD5763A22840A0690015D670 /* DecoratorPattern */;
+			productType = "com.apple.product-type.tool";
+		};
 		ADB48FE5283F47B000EC7289 /* ObserverPattern */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADB48FEA283F47B000EC7289 /* Build configuration list for PBXNativeTarget "ObserverPattern" */;
@@ -234,6 +310,9 @@
 					AD3D71CD283E3ECB003C0E2A = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
+					AD5763A12840A0690015D670 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 					ADB48FE5283F47B000EC7289 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -254,6 +333,7 @@
 			targets = (
 				AD3D71CD283E3ECB003C0E2A /* StrategyPattern */,
 				ADB48FE5283F47B000EC7289 /* ObserverPattern */,
+				AD5763A12840A0690015D670 /* DecoratorPattern */,
 			);
 		};
 /* End PBXProject section */
@@ -273,6 +353,20 @@
 				AD3D71E3283E4206003C0E2A /* Duck.m in Sources */,
 				AD45EEAD283E4A01002E2BCE /* MuteQuack.m in Sources */,
 				AD3D71D2283E3ECC003C0E2A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD57639E2840A0690015D670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD16ACAF2840B499005A26DC /* Mocha.m in Sources */,
+				AD5763AB2840A59A0015D670 /* Beverage.m in Sources */,
+				AD5763A52840A0690015D670 /* main.m in Sources */,
+				AD16ACB22840B533005A26DC /* Soy.m in Sources */,
+				AD16ACAC2840B36C005A26DC /* Espresso.m in Sources */,
+				AD16ACA62840B079005A26DC /* HouseBlend.m in Sources */,
+				AD16ACA92840B25A005A26DC /* Condiment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +513,26 @@
 			};
 			name = Release;
 		};
+		AD5763A62840A0690015D670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD5763A72840A0690015D670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		ADB48FEB283F47B000EC7289 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -456,6 +570,15 @@
 			buildConfigurations = (
 				AD3D71D6283E3ECC003C0E2A /* Debug */,
 				AD3D71D7283E3ECC003C0E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5763A82840A0690015D670 /* Build configuration list for PBXNativeTarget "DecoratorPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5763A62840A0690015D670 /* Debug */,
+				AD5763A72840A0690015D670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

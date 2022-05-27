@@ -5,15 +5,17 @@
 
 * [设计模式](https://refactoringguru.cn/design-patterns)
 
-  * [设计原则]()
+  * [设计原则](Others/DesignPrinciples.md)
 
   * [HEAD FIRST 设计模式 源码OC版](HeadFirstDesignPatternsOC)
 
     * [策略模式](HeadFirstDesignPatternsOC/StrategyPattern)
 
-  * [HEAD FIRST 设计模式 源码Java版](HeadFirstDesignPatternsJava)
+    * [观察者模式](HeadFirstDesignPatternsOC/ObserverPattern)
 
-    * [策略模式](HeadFirstDesignPatternsJava/HeadFirst/src/StrategyPattern)
+    * [装饰器模式](HeadFirstDesignPatternsOC/DecoratorPattern)
+    
+  * [HEAD FIRST 设计模式 源码Java版](HeadFirstDesignPatternsJava)
 
 #### 语言
 
