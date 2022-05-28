@@ -12,6 +12,20 @@
 		AD16ACAC2840B36C005A26DC /* Espresso.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACAB2840B36C005A26DC /* Espresso.m */; };
 		AD16ACAF2840B499005A26DC /* Mocha.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACAE2840B499005A26DC /* Mocha.m */; };
 		AD16ACB22840B533005A26DC /* Soy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACB12840B533005A26DC /* Soy.m */; };
+		AD16ACBA28411F09005A26DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACB928411F09005A26DC /* main.m */; };
+		AD16ACC028411F24005A26DC /* PizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACBF28411F24005A26DC /* PizzaStore.m */; };
+		AD16ACC328411FBF005A26DC /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACC228411FBF005A26DC /* Pizza.m */; };
+		AD16ACC62841226B005A26DC /* NYStyleCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACC52841226B005A26DC /* NYStyleCheesePizza.m */; };
+		AD16ACC92841B29C005A26DC /* NYPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACC82841B29C005A26DC /* NYPizzaStore.m */; };
+		AD16ACCC2841B574005A26DC /* ChiPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACCB2841B574005A26DC /* ChiPizzaStore.m */; };
+		AD16ACCF2841B5FC005A26DC /* ChiStyleCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACCE2841B5FC005A26DC /* ChiStyleCheesePizza.m */; };
+		AD2B38662841C4BE00046E6D /* NYPizzaIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2B38652841C4BE00046E6D /* NYPizzaIngredientFactory.m */; };
+		AD2B38692841C50B00046E6D /* ThinCrustDough.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2B38682841C50B00046E6D /* ThinCrustDough.m */; };
+		AD2B38712841C72B00046E6D /* MarinaraSauce.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2B38702841C72B00046E6D /* MarinaraSauce.m */; };
+		AD2B38742841C74300046E6D /* ReggianoCheese.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2B38732841C74300046E6D /* ReggianoCheese.m */; };
+		AD2B38772841C76900046E6D /* FreshClams.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2B38762841C76900046E6D /* FreshClams.m */; };
+		AD2B387E2841D47100046E6D /* CheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2B387D2841D47100046E6D /* CheesePizza.m */; };
+		AD2B38812841D6AD00046E6D /* ClamPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2B38802841D6AD00046E6D /* ClamPizza.m */; };
 		AD3D71D2283E3ECC003C0E2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3D71D1283E3ECC003C0E2A /* main.m */; };
 		AD3D71E3283E4206003C0E2A /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3D71E2283E4206003C0E2A /* Duck.m */; };
 		AD45EE9E283E486B002E2BCE /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45EE9D283E486B002E2BCE /* FlyNoWay.m */; };
@@ -31,6 +45,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		AD16ACB528411F09005A26DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		AD3D71CC283E3ECB003C0E2A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,6 +94,39 @@
 		AD16ACAE2840B499005A26DC /* Mocha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mocha.m; sourceTree = "<group>"; };
 		AD16ACB02840B533005A26DC /* Soy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soy.h; sourceTree = "<group>"; };
 		AD16ACB12840B533005A26DC /* Soy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Soy.m; sourceTree = "<group>"; };
+		AD16ACB728411F09005A26DC /* FactoryPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD16ACB928411F09005A26DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD16ACBE28411F24005A26DC /* PizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PizzaStore.h; sourceTree = "<group>"; };
+		AD16ACBF28411F24005A26DC /* PizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaStore.m; sourceTree = "<group>"; };
+		AD16ACC128411FBF005A26DC /* Pizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		AD16ACC228411FBF005A26DC /* Pizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		AD16ACC42841226B005A26DC /* NYStyleCheesePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYStyleCheesePizza.h; sourceTree = "<group>"; };
+		AD16ACC52841226B005A26DC /* NYStyleCheesePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYStyleCheesePizza.m; sourceTree = "<group>"; };
+		AD16ACC72841B29C005A26DC /* NYPizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYPizzaStore.h; sourceTree = "<group>"; };
+		AD16ACC82841B29C005A26DC /* NYPizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYPizzaStore.m; sourceTree = "<group>"; };
+		AD16ACCA2841B574005A26DC /* ChiPizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChiPizzaStore.h; sourceTree = "<group>"; };
+		AD16ACCB2841B574005A26DC /* ChiPizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChiPizzaStore.m; sourceTree = "<group>"; };
+		AD16ACCD2841B5FC005A26DC /* ChiStyleCheesePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChiStyleCheesePizza.h; sourceTree = "<group>"; };
+		AD16ACCE2841B5FC005A26DC /* ChiStyleCheesePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChiStyleCheesePizza.m; sourceTree = "<group>"; };
+		AD16ACD02841C275005A26DC /* PizzaIngredientFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PizzaIngredientFactory.h; sourceTree = "<group>"; };
+		AD16ACD12841C309005A26DC /* Dough.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dough.h; sourceTree = "<group>"; };
+		AD2B38642841C4BE00046E6D /* NYPizzaIngredientFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYPizzaIngredientFactory.h; sourceTree = "<group>"; };
+		AD2B38652841C4BE00046E6D /* NYPizzaIngredientFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYPizzaIngredientFactory.m; sourceTree = "<group>"; };
+		AD2B38672841C50B00046E6D /* ThinCrustDough.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThinCrustDough.h; sourceTree = "<group>"; };
+		AD2B38682841C50B00046E6D /* ThinCrustDough.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThinCrustDough.m; sourceTree = "<group>"; };
+		AD2B386B2841C5AE00046E6D /* Sauce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sauce.h; sourceTree = "<group>"; };
+		AD2B386C2841C5B900046E6D /* Cheese.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cheese.h; sourceTree = "<group>"; };
+		AD2B386E2841C5D900046E6D /* Clams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Clams.h; sourceTree = "<group>"; };
+		AD2B386F2841C72B00046E6D /* MarinaraSauce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarinaraSauce.h; sourceTree = "<group>"; };
+		AD2B38702841C72B00046E6D /* MarinaraSauce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarinaraSauce.m; sourceTree = "<group>"; };
+		AD2B38722841C74300046E6D /* ReggianoCheese.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReggianoCheese.h; sourceTree = "<group>"; };
+		AD2B38732841C74300046E6D /* ReggianoCheese.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReggianoCheese.m; sourceTree = "<group>"; };
+		AD2B38752841C76900046E6D /* FreshClams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FreshClams.h; sourceTree = "<group>"; };
+		AD2B38762841C76900046E6D /* FreshClams.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreshClams.m; sourceTree = "<group>"; };
+		AD2B387C2841D47100046E6D /* CheesePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheesePizza.h; sourceTree = "<group>"; };
+		AD2B387D2841D47100046E6D /* CheesePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheesePizza.m; sourceTree = "<group>"; };
+		AD2B387F2841D6AD00046E6D /* ClamPizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClamPizza.h; sourceTree = "<group>"; };
+		AD2B38802841D6AD00046E6D /* ClamPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClamPizza.m; sourceTree = "<group>"; };
 		AD3D71CE283E3ECC003C0E2A /* StrategyPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StrategyPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3D71D1283E3ECC003C0E2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD3D71D8283E40C4003C0E2A /* FlyBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyBehavior.h; sourceTree = "<group>"; };
@@ -111,6 +167,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AD16ACB428411F09005A26DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD3D71CB283E3ECB003C0E2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,12 +198,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD16ACB828411F09005A26DC /* FactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				AD16ACB928411F09005A26DC /* main.m */,
+				AD16ACBE28411F24005A26DC /* PizzaStore.h */,
+				AD16ACBF28411F24005A26DC /* PizzaStore.m */,
+				AD16ACC128411FBF005A26DC /* Pizza.h */,
+				AD16ACC228411FBF005A26DC /* Pizza.m */,
+				AD2B387C2841D47100046E6D /* CheesePizza.h */,
+				AD2B387D2841D47100046E6D /* CheesePizza.m */,
+				AD2B387F2841D6AD00046E6D /* ClamPizza.h */,
+				AD2B38802841D6AD00046E6D /* ClamPizza.m */,
+				AD16ACC72841B29C005A26DC /* NYPizzaStore.h */,
+				AD16ACC82841B29C005A26DC /* NYPizzaStore.m */,
+				AD16ACC42841226B005A26DC /* NYStyleCheesePizza.h */,
+				AD16ACC52841226B005A26DC /* NYStyleCheesePizza.m */,
+				AD16ACCA2841B574005A26DC /* ChiPizzaStore.h */,
+				AD16ACCB2841B574005A26DC /* ChiPizzaStore.m */,
+				AD16ACCD2841B5FC005A26DC /* ChiStyleCheesePizza.h */,
+				AD16ACCE2841B5FC005A26DC /* ChiStyleCheesePizza.m */,
+				AD16ACD02841C275005A26DC /* PizzaIngredientFactory.h */,
+				AD2B38642841C4BE00046E6D /* NYPizzaIngredientFactory.h */,
+				AD2B38652841C4BE00046E6D /* NYPizzaIngredientFactory.m */,
+				AD2B386A2841C59700046E6D /* Ingredients */,
+				AD2B38672841C50B00046E6D /* ThinCrustDough.h */,
+				AD2B38682841C50B00046E6D /* ThinCrustDough.m */,
+				AD2B386F2841C72B00046E6D /* MarinaraSauce.h */,
+				AD2B38702841C72B00046E6D /* MarinaraSauce.m */,
+				AD2B38722841C74300046E6D /* ReggianoCheese.h */,
+				AD2B38732841C74300046E6D /* ReggianoCheese.m */,
+				AD2B38752841C76900046E6D /* FreshClams.h */,
+				AD2B38762841C76900046E6D /* FreshClams.m */,
+			);
+			path = FactoryPattern;
+			sourceTree = "<group>";
+		};
+		AD2B386A2841C59700046E6D /* Ingredients */ = {
+			isa = PBXGroup;
+			children = (
+				AD16ACD12841C309005A26DC /* Dough.h */,
+				AD2B386B2841C5AE00046E6D /* Sauce.h */,
+				AD2B386C2841C5B900046E6D /* Cheese.h */,
+				AD2B386E2841C5D900046E6D /* Clams.h */,
+			);
+			path = Ingredients;
+			sourceTree = "<group>";
+		};
 		AD3D71C5283E3ECB003C0E2A = {
 			isa = PBXGroup;
 			children = (
 				AD3D71D0283E3ECC003C0E2A /* StrategyPattern */,
 				ADB48FE7283F47B000EC7289 /* ObserverPattern */,
 				AD5763A32840A0690015D670 /* DecoratorPattern */,
+				AD16ACB828411F09005A26DC /* FactoryPattern */,
 				AD3D71CF283E3ECC003C0E2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,6 +262,7 @@
 				AD3D71CE283E3ECC003C0E2A /* StrategyPattern */,
 				ADB48FE6283F47B000EC7289 /* ObserverPattern */,
 				AD5763A22840A0690015D670 /* DecoratorPattern */,
+				AD16ACB728411F09005A26DC /* FactoryPattern */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -247,6 +359,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AD16ACB628411F09005A26DC /* FactoryPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD16ACBB28411F09005A26DC /* Build configuration list for PBXNativeTarget "FactoryPattern" */;
+			buildPhases = (
+				AD16ACB328411F09005A26DC /* Sources */,
+				AD16ACB428411F09005A26DC /* Frameworks */,
+				AD16ACB528411F09005A26DC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FactoryPattern;
+			productName = FactoryPattern;
+			productReference = AD16ACB728411F09005A26DC /* FactoryPattern */;
+			productType = "com.apple.product-type.tool";
+		};
 		AD3D71CD283E3ECB003C0E2A /* StrategyPattern */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD3D71D5283E3ECC003C0E2A /* Build configuration list for PBXNativeTarget "StrategyPattern" */;
@@ -307,6 +436,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					AD16ACB628411F09005A26DC = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 					AD3D71CD283E3ECB003C0E2A = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -334,11 +466,33 @@
 				AD3D71CD283E3ECB003C0E2A /* StrategyPattern */,
 				ADB48FE5283F47B000EC7289 /* ObserverPattern */,
 				AD5763A12840A0690015D670 /* DecoratorPattern */,
+				AD16ACB628411F09005A26DC /* FactoryPattern */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AD16ACB328411F09005A26DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD16ACC92841B29C005A26DC /* NYPizzaStore.m in Sources */,
+				AD16ACC328411FBF005A26DC /* Pizza.m in Sources */,
+				AD16ACCF2841B5FC005A26DC /* ChiStyleCheesePizza.m in Sources */,
+				AD2B38742841C74300046E6D /* ReggianoCheese.m in Sources */,
+				AD2B38662841C4BE00046E6D /* NYPizzaIngredientFactory.m in Sources */,
+				AD2B38812841D6AD00046E6D /* ClamPizza.m in Sources */,
+				AD2B38692841C50B00046E6D /* ThinCrustDough.m in Sources */,
+				AD2B387E2841D47100046E6D /* CheesePizza.m in Sources */,
+				AD16ACC028411F24005A26DC /* PizzaStore.m in Sources */,
+				AD16ACC62841226B005A26DC /* NYStyleCheesePizza.m in Sources */,
+				AD16ACBA28411F09005A26DC /* main.m in Sources */,
+				AD2B38712841C72B00046E6D /* MarinaraSauce.m in Sources */,
+				AD16ACCC2841B574005A26DC /* ChiPizzaStore.m in Sources */,
+				AD2B38772841C76900046E6D /* FreshClams.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD3D71CA283E3ECB003C0E2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,6 +538,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		AD16ACBC28411F09005A26DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD16ACBD28411F09005A26DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		AD3D71D3283E3ECC003C0E2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -556,6 +730,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AD16ACBB28411F09005A26DC /* Build configuration list for PBXNativeTarget "FactoryPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD16ACBC28411F09005A26DC /* Debug */,
+				AD16ACBD28411F09005A26DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AD3D71C9283E3ECB003C0E2A /* Build configuration list for PBXProject "HeadFirstDesignPatternsOC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

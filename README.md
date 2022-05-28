@@ -1,7 +1,6 @@
 ### Roadmap
 ![](Resource/roadmapv1.png)
 
-#### 计算机基础
 
 * [设计模式](https://refactoringguru.cn/design-patterns)
 
@@ -14,6 +13,8 @@
     * [观察者模式](HeadFirstDesignPatternsOC/ObserverPattern)
 
     * [装饰器模式](HeadFirstDesignPatternsOC/DecoratorPattern)
+
+    * [工厂模式](HeadFirstDesignPatternsOC/FactoryPattern)
     
   * [HEAD FIRST 设计模式 源码Java版](HeadFirstDesignPatternsJava)
 
