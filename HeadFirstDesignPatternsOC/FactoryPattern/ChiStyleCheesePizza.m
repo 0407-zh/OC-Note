@@ -6,14 +6,16 @@
 //
 
 #import "ChiStyleCheesePizza.h"
+#import "ThinCrustDough.h"
+#import "MarinaraSauce.h"
 
 @implementation ChiStyleCheesePizza
 
 - (instancetype)init {
     if (self = [super init]) {
         self.name = @"Chicago Style Deep Dish Cheese Pizza";
-        self.dough = @"Extra Thick Crust Dough";
-        self.sauce = @"Plum Tomato Sauce";
+        self.dough = [ThinCrustDough new];
+        self.sauce = [MarinaraSauce new];
         
         [self.toppings addObject:@"Shredded Mozzarella Cheese"];
     }
