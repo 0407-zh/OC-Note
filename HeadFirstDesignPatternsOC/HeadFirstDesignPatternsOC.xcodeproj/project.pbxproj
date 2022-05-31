@@ -42,6 +42,8 @@
 		ADB48FF2283F492200EC7289 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48FF1283F492200EC7289 /* WeatherData.m */; };
 		ADB48FF7283F4EB200EC7289 /* CurrentCondationsDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48FF6283F4EB200EC7289 /* CurrentCondationsDisplay.m */; };
 		ADB48FFA283F53D100EC7289 /* ForecastDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48FF9283F53D100EC7289 /* ForecastDisplay.m */; };
+		ADD75DF928433E65008F1231 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD75DF828433E65008F1231 /* main.m */; };
+		ADD75E0228434395008F1231 /* ChocolateBoiler.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD75E0128434395008F1231 /* ChocolateBoiler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +75,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		ADB48FE4283F47B000EC7289 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ADD75DF428433E65008F1231 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -164,6 +175,10 @@
 		ADB48FF6283F4EB200EC7289 /* CurrentCondationsDisplay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentCondationsDisplay.m; sourceTree = "<group>"; };
 		ADB48FF8283F53D100EC7289 /* ForecastDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForecastDisplay.h; sourceTree = "<group>"; };
 		ADB48FF9283F53D100EC7289 /* ForecastDisplay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForecastDisplay.m; sourceTree = "<group>"; };
+		ADD75DF628433E65008F1231 /* SingletonPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SingletonPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD75DF828433E65008F1231 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADD75E0028434395008F1231 /* ChocolateBoiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChocolateBoiler.h; sourceTree = "<group>"; };
+		ADD75E0128434395008F1231 /* ChocolateBoiler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChocolateBoiler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +204,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ADB48FE3283F47B000EC7289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD75DF328433E65008F1231 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,6 +274,7 @@
 				ADB48FE7283F47B000EC7289 /* ObserverPattern */,
 				AD5763A32840A0690015D670 /* DecoratorPattern */,
 				AD16ACB828411F09005A26DC /* FactoryPattern */,
+				ADD75DF728433E65008F1231 /* SingletonPattern */,
 				AD3D71CF283E3ECC003C0E2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -263,6 +286,7 @@
 				ADB48FE6283F47B000EC7289 /* ObserverPattern */,
 				AD5763A22840A0690015D670 /* DecoratorPattern */,
 				AD16ACB728411F09005A26DC /* FactoryPattern */,
+				ADD75DF628433E65008F1231 /* SingletonPattern */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -356,6 +380,16 @@
 			path = ObserverPattern;
 			sourceTree = "<group>";
 		};
+		ADD75DF728433E65008F1231 /* SingletonPattern */ = {
+			isa = PBXGroup;
+			children = (
+				ADD75DF828433E65008F1231 /* main.m */,
+				ADD75E0028434395008F1231 /* ChocolateBoiler.h */,
+				ADD75E0128434395008F1231 /* ChocolateBoiler.m */,
+			);
+			path = SingletonPattern;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -427,6 +461,23 @@
 			productReference = ADB48FE6283F47B000EC7289 /* ObserverPattern */;
 			productType = "com.apple.product-type.tool";
 		};
+		ADD75DF528433E65008F1231 /* SingletonPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD75DFC28433E65008F1231 /* Build configuration list for PBXNativeTarget "SingletonPattern" */;
+			buildPhases = (
+				ADD75DF228433E65008F1231 /* Sources */,
+				ADD75DF328433E65008F1231 /* Frameworks */,
+				ADD75DF428433E65008F1231 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingletonPattern;
+			productName = SingletonPattern;
+			productReference = ADD75DF628433E65008F1231 /* SingletonPattern */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -448,6 +499,9 @@
 					ADB48FE5283F47B000EC7289 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
+					ADD75DF528433E65008F1231 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 				};
 			};
 			buildConfigurationList = AD3D71C9283E3ECB003C0E2A /* Build configuration list for PBXProject "HeadFirstDesignPatternsOC" */;
@@ -467,6 +521,7 @@
 				ADB48FE5283F47B000EC7289 /* ObserverPattern */,
 				AD5763A12840A0690015D670 /* DecoratorPattern */,
 				AD16ACB628411F09005A26DC /* FactoryPattern */,
+				ADD75DF528433E65008F1231 /* SingletonPattern */,
 			);
 		};
 /* End PBXProject section */
@@ -532,6 +587,15 @@
 				ADB48FFA283F53D100EC7289 /* ForecastDisplay.m in Sources */,
 				ADB48FF7283F4EB200EC7289 /* CurrentCondationsDisplay.m in Sources */,
 				ADB48FEE283F47FF00EC7289 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD75DF228433E65008F1231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD75DF928433E65008F1231 /* main.m in Sources */,
+				ADD75E0228434395008F1231 /* ChocolateBoiler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,6 +791,26 @@
 			};
 			name = Release;
 		};
+		ADD75DFA28433E65008F1231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADD75DFB28433E65008F1231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -771,6 +855,15 @@
 			buildConfigurations = (
 				ADB48FEB283F47B000EC7289 /* Debug */,
 				ADB48FEC283F47B000EC7289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD75DFC28433E65008F1231 /* Build configuration list for PBXNativeTarget "SingletonPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD75DFA28433E65008F1231 /* Debug */,
+				ADD75DFB28433E65008F1231 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -6,11 +6,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ChocolateBoiler.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        ChocolateBoiler *boiler = [ChocolateBoiler getInstance];
+        NSLog(@"%@", boiler);
+        [boiler fill];
+        [boiler boil];
+        [boiler drain];
+        
+        ChocolateBoiler *boiler2 = [ChocolateBoiler getInstance];
+        NSLog(@"%@", boiler2);
     }
     return 0;
 }

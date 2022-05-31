@@ -15,6 +15,8 @@
     * [装饰器模式](HeadFirstDesignPatternsOC/DecoratorPattern)
 
     * [工厂模式](HeadFirstDesignPatternsOC/FactoryPattern)
+
+    * [单例模式](HeadFirstDesignPatternsOC/SingletonPattern)
     
   * [HEAD FIRST 设计模式 源码Java版](HeadFirstDesignPatternsJava)
 
@@ -83,6 +85,8 @@
   * [Git](ToolChain/learngit.md)
 
   * CocoaPods
+
+    * [解决CocoaPods 安装依赖极慢，超时崩溃方法](https://github.com/yangjunning/issues/issues/216#issue-932307978)
 
   * SwiftPackageManagement
 
