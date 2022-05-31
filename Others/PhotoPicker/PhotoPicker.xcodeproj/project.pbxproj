@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6BD9F353E1A66D8DA7D68E6 /* Pods_PhotoPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C9C71A4B826DAF8D049B5D /* Pods_PhotoPicker.framework */; };
 		AD351FD02810DEE90033D3CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD351FCF2810DEE90033D3CC /* AppDelegate.m */; };
 		AD351FD32810DEE90033D3CC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD351FD22810DEE90033D3CC /* SceneDelegate.m */; };
 		AD351FD62810DEE90033D3CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD351FD52810DEE90033D3CC /* ViewController.m */; };
@@ -20,8 +19,30 @@
 		AD351FEF2810EFC20033D3CC /* PhotoPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD351FEE2810EFC20033D3CC /* PhotoPickerCell.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AD6576AA2845E4E300DABA2E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6576B22845E4F300DABA2E /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		36C9C71A4B826DAF8D049B5D /* Pods_PhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A2067664CA96129D8E6477 /* Pods-PhotoPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoPicker.debug.xcconfig"; path = "Target Support Files/Pods-PhotoPicker/Pods-PhotoPicker.debug.xcconfig"; sourceTree = "<group>"; };
 		901A35A7482C98B833417B38 /* Pods-PhotoPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoPicker.release.xcconfig"; path = "Target Support Files/Pods-PhotoPicker/Pods-PhotoPicker.release.xcconfig"; sourceTree = "<group>"; };
 		AD351FCB2810DEE90033D3CC /* PhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,7 +63,6 @@
 		AD351FEB2810E3A10033D3CC /* UIView+Geometry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Geometry.m"; sourceTree = "<group>"; };
 		AD351FED2810EFC20033D3CC /* PhotoPickerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoPickerCell.h; sourceTree = "<group>"; };
 		AD351FEE2810EFC20033D3CC /* PhotoPickerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerCell.m; sourceTree = "<group>"; };
-		AD68E09B2845D43D00A8D641 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6BD9F353E1A66D8DA7D68E6 /* Pods_PhotoPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,8 +88,6 @@
 		65E66AE52E01A904F28BE574 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AD68E09B2845D43D00A8D641 /* AFNetworking.framework */,
-				36C9C71A4B826DAF8D049B5D /* Pods_PhotoPicker.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,7 +145,8 @@
 				AD351FC72810DEE90033D3CC /* Sources */,
 				AD351FC82810DEE90033D3CC /* Frameworks */,
 				AD351FC92810DEE90033D3CC /* Resources */,
-				D4257FCEAA86035C1FB61BD7 /* [CP] Embed Pods Frameworks */,
+				AD6576AA2845E4E300DABA2E /* Embed Frameworks */,
+				AD6576B22845E4F300DABA2E /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
@@ -205,23 +223,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D4257FCEAA86035C1FB61BD7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PhotoPicker/Pods-PhotoPicker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PhotoPicker/Pods-PhotoPicker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoPicker/Pods-PhotoPicker-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
