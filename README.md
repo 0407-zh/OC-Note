@@ -17,6 +17,8 @@
     * [工厂模式](HeadFirstDesignPatternsOC/FactoryPattern)
 
     * [单例模式](HeadFirstDesignPatternsOC/SingletonPattern)
+
+    * [命令模式](HeadFirstDesignPatternsOC/CommandPattern)
     
   * [HEAD FIRST 设计模式 源码Java版](HeadFirstDesignPatternsJava)
 
