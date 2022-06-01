@@ -17,6 +17,8 @@
 
 @property (nonatomic)NSMutableArray<id<Command>> *offCommands;
 
+@property (nonatomic)id<Command> undoCommand;
+
 @end
 
 @implementation RemoteControl
@@ -31,6 +33,7 @@
             self.onCommands[i] = noCommand;
             self.offCommands[i] = noCommand;
         }
+        self.undoCommand = noCommand;
     }
     return self;
 }
@@ -42,10 +45,16 @@
 
 - (void)pushOnButtonAtSlot:(NSInteger)slot {
     [self.onCommands[slot] execute];
+    self.undoCommand = self.onCommands[slot];
 }
 
 - (void)pushOffButtonAtSlot:(NSInteger)slot {
     [self.offCommands[slot] execute];
+    self.undoCommand = self.offCommands[slot];
+}
+
+- (void)pushUndoButton {
+    [self.undoCommand undo];
 }
 
 - (NSString *)description {

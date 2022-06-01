@@ -46,12 +46,23 @@ int main(int argc, const char * argv[]) {
         
         [remote pushOnButtonAtSlot:0];
         [remote pushOffButtonAtSlot:0];
+        NSLog(@"%@", remote);
+        [remote pushUndoButton];
+        
         [remote pushOnButtonAtSlot:1];
         [remote pushOffButtonAtSlot:1];
+        NSLog(@"%@", remote);
+        [remote pushUndoButton];
+        
         [remote pushOnButtonAtSlot:2];
         [remote pushOffButtonAtSlot:2];
+        NSLog(@"%@", remote);
+        [remote pushUndoButton];
+        
         [remote pushOnButtonAtSlot:3];
         [remote pushOffButtonAtSlot:3];
+        NSLog(@"%@", remote);
+        [remote pushUndoButton];
     }
     return 0;
 }

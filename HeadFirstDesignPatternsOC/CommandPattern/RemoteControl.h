@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)pushOffButtonAtSlot:(NSInteger)slot;
 
+- (void)pushUndoButton;
+
 @end
 
 NS_ASSUME_NONNULL_END

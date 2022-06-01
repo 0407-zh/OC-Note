@@ -27,7 +27,7 @@
 }
 
 - (void)undo {
-    
+    [self.garageDoor close];
 }
 
 @end
