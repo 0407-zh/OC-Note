@@ -54,6 +54,10 @@
 		ADB48FF2283F492200EC7289 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48FF1283F492200EC7289 /* WeatherData.m */; };
 		ADB48FF7283F4EB200EC7289 /* CurrentCondationsDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48FF6283F4EB200EC7289 /* CurrentCondationsDisplay.m */; };
 		ADB48FFA283F53D100EC7289 /* ForecastDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48FF9283F53D100EC7289 /* ForecastDisplay.m */; };
+		ADCE15262847421C00C03B50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCE15252847421C00C03B50 /* main.m */; };
+		ADCE152D2847451100C03B50 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCE152C2847451100C03B50 /* MallardDuck.m */; };
+		ADCE1531284745C900C03B50 /* WildTurkey.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCE1530284745C900C03B50 /* WildTurkey.m */; };
+		ADCE15342847462300C03B50 /* TurkeyAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCE15332847462300C03B50 /* TurkeyAdapter.m */; };
 		ADD75DF928433E65008F1231 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD75DF828433E65008F1231 /* main.m */; };
 		ADD75E0228434395008F1231 /* ChocolateBoiler.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD75E0128434395008F1231 /* ChocolateBoiler.m */; };
 /* End PBXBuildFile section */
@@ -96,6 +100,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		ADB48FE4283F47B000EC7289 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ADCE15212847421C00C03B50 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -221,6 +234,16 @@
 		ADB48FF6283F4EB200EC7289 /* CurrentCondationsDisplay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentCondationsDisplay.m; sourceTree = "<group>"; };
 		ADB48FF8283F53D100EC7289 /* ForecastDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForecastDisplay.h; sourceTree = "<group>"; };
 		ADB48FF9283F53D100EC7289 /* ForecastDisplay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForecastDisplay.m; sourceTree = "<group>"; };
+		ADCE15232847421C00C03B50 /* AdapterPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdapterPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCE15252847421C00C03B50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADCE152A2847447800C03B50 /* Duck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
+		ADCE152B2847451000C03B50 /* MallardDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MallardDuck.h; sourceTree = "<group>"; };
+		ADCE152C2847451100C03B50 /* MallardDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
+		ADCE152E2847456000C03B50 /* Turkey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Turkey.h; sourceTree = "<group>"; };
+		ADCE152F284745C900C03B50 /* WildTurkey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WildTurkey.h; sourceTree = "<group>"; };
+		ADCE1530284745C900C03B50 /* WildTurkey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WildTurkey.m; sourceTree = "<group>"; };
+		ADCE15322847462300C03B50 /* TurkeyAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TurkeyAdapter.h; sourceTree = "<group>"; };
+		ADCE15332847462300C03B50 /* TurkeyAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurkeyAdapter.m; sourceTree = "<group>"; };
 		ADD75DF628433E65008F1231 /* SingletonPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SingletonPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD75DF828433E65008F1231 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADD75E0028434395008F1231 /* ChocolateBoiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChocolateBoiler.h; sourceTree = "<group>"; };
@@ -257,6 +280,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ADB48FE3283F47B000EC7289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCE15202847421C00C03B50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,6 +390,7 @@
 				AD16ACB828411F09005A26DC /* FactoryPattern */,
 				ADD75DF728433E65008F1231 /* SingletonPattern */,
 				AD0EEA832845F3DD00B385AB /* CommandPattern */,
+				ADCE15242847421C00C03B50 /* AdapterPattern */,
 				AD3D71CF283E3ECC003C0E2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -373,6 +404,7 @@
 				AD16ACB728411F09005A26DC /* FactoryPattern */,
 				ADD75DF628433E65008F1231 /* SingletonPattern */,
 				AD0EEA822845F3DD00B385AB /* CommandPattern */,
+				ADCE15232847421C00C03B50 /* AdapterPattern */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -464,6 +496,22 @@
 				ADB48FF9283F53D100EC7289 /* ForecastDisplay.m */,
 			);
 			path = ObserverPattern;
+			sourceTree = "<group>";
+		};
+		ADCE15242847421C00C03B50 /* AdapterPattern */ = {
+			isa = PBXGroup;
+			children = (
+				ADCE15252847421C00C03B50 /* main.m */,
+				ADCE152A2847447800C03B50 /* Duck.h */,
+				ADCE152E2847456000C03B50 /* Turkey.h */,
+				ADCE152B2847451000C03B50 /* MallardDuck.h */,
+				ADCE152C2847451100C03B50 /* MallardDuck.m */,
+				ADCE152F284745C900C03B50 /* WildTurkey.h */,
+				ADCE1530284745C900C03B50 /* WildTurkey.m */,
+				ADCE15322847462300C03B50 /* TurkeyAdapter.h */,
+				ADCE15332847462300C03B50 /* TurkeyAdapter.m */,
+			);
+			path = AdapterPattern;
 			sourceTree = "<group>";
 		};
 		ADD75DF728433E65008F1231 /* SingletonPattern */ = {
@@ -564,6 +612,23 @@
 			productReference = ADB48FE6283F47B000EC7289 /* ObserverPattern */;
 			productType = "com.apple.product-type.tool";
 		};
+		ADCE15222847421C00C03B50 /* AdapterPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCE15292847421D00C03B50 /* Build configuration list for PBXNativeTarget "AdapterPattern" */;
+			buildPhases = (
+				ADCE151F2847421C00C03B50 /* Sources */,
+				ADCE15202847421C00C03B50 /* Frameworks */,
+				ADCE15212847421C00C03B50 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdapterPattern;
+			productName = AdapterPattern;
+			productReference = ADCE15232847421C00C03B50 /* AdapterPattern */;
+			productType = "com.apple.product-type.tool";
+		};
 		ADD75DF528433E65008F1231 /* SingletonPattern */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADD75DFC28433E65008F1231 /* Build configuration list for PBXNativeTarget "SingletonPattern" */;
@@ -605,6 +670,9 @@
 					ADB48FE5283F47B000EC7289 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
+					ADCE15222847421C00C03B50 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 					ADD75DF528433E65008F1231 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -629,6 +697,7 @@
 				AD16ACB628411F09005A26DC /* FactoryPattern */,
 				ADD75DF528433E65008F1231 /* SingletonPattern */,
 				AD0EEA812845F3DD00B385AB /* CommandPattern */,
+				ADCE15222847421C00C03B50 /* AdapterPattern */,
 			);
 		};
 /* End PBXProject section */
@@ -713,6 +782,17 @@
 				ADB48FFA283F53D100EC7289 /* ForecastDisplay.m in Sources */,
 				ADB48FF7283F4EB200EC7289 /* CurrentCondationsDisplay.m in Sources */,
 				ADB48FEE283F47FF00EC7289 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCE151F2847421C00C03B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCE152D2847451100C03B50 /* MallardDuck.m in Sources */,
+				ADCE15262847421C00C03B50 /* main.m in Sources */,
+				ADCE1531284745C900C03B50 /* WildTurkey.m in Sources */,
+				ADCE15342847462300C03B50 /* TurkeyAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -937,6 +1017,26 @@
 			};
 			name = Release;
 		};
+		ADCE15272847421D00C03B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADCE15282847421D00C03B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		ADD75DFA28433E65008F1231 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1010,6 +1110,15 @@
 			buildConfigurations = (
 				ADB48FEB283F47B000EC7289 /* Debug */,
 				ADB48FEC283F47B000EC7289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCE15292847421D00C03B50 /* Build configuration list for PBXNativeTarget "AdapterPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCE15272847421D00C03B50 /* Debug */,
+				ADCE15282847421D00C03B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

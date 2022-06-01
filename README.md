@@ -19,6 +19,8 @@
     * [单例模式](HeadFirstDesignPatternsOC/SingletonPattern)
 
     * [命令模式](HeadFirstDesignPatternsOC/CommandPattern)
+
+    * [适配器模式](HeadFirstDesignPatternsOC/AdapterPattern)
     
   * [HEAD FIRST 设计模式 源码Java版](HeadFirstDesignPatternsJava)
 
