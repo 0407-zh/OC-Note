@@ -48,6 +48,16 @@
 		AD45EEAD283E4A01002E2BCE /* MuteQuack.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45EEAC283E4A01002E2BCE /* MuteQuack.m */; };
 		AD45EEB0283E4B57002E2BCE /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45EEAF283E4B57002E2BCE /* MallardDuck.m */; };
 		AD45EEB3283E4B81002E2BCE /* ModelDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = AD45EEB2283E4B81002E2BCE /* ModelDuck.m */; };
+		AD4A62CA28488EB5004BBDAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62C928488EB5004BBDAA /* main.m */; };
+		AD4A62D028488EE8004BBDAA /* HomeTheaterFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62CF28488EE8004BBDAA /* HomeTheaterFacade.m */; };
+		AD4A62D428488F62004BBDAA /* Amplifier.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62D328488F62004BBDAA /* Amplifier.m */; };
+		AD4A62D728488FAF004BBDAA /* Tuner.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62D628488FAF004BBDAA /* Tuner.m */; };
+		AD4A62DA28488FC0004BBDAA /* DvdPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62D928488FC0004BBDAA /* DvdPlayer.m */; };
+		AD4A62DD28488FCA004BBDAA /* CdPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62DC28488FCA004BBDAA /* CdPlayer.m */; };
+		AD4A62E028488FD8004BBDAA /* Projector.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62DF28488FD8004BBDAA /* Projector.m */; };
+		AD4A62E32848900F004BBDAA /* TheaterLights.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62E22848900F004BBDAA /* TheaterLights.m */; };
+		AD4A62E62848902D004BBDAA /* Screen.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62E52848902D004BBDAA /* Screen.m */; };
+		AD4A62E92848903C004BBDAA /* PopcornPopper.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62E82848903C004BBDAA /* PopcornPopper.m */; };
 		AD5763A52840A0690015D670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5763A42840A0690015D670 /* main.m */; };
 		AD5763AB2840A59A0015D670 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5763AA2840A59A0015D670 /* Beverage.m */; };
 		ADB48FEE283F47FF00EC7289 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48FED283F47FF00EC7289 /* main.m */; };
@@ -82,6 +92,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		AD3D71CC283E3ECB003C0E2A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AD4A62C528488EB5004BBDAA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -219,6 +238,26 @@
 		AD45EEAF283E4B57002E2BCE /* MallardDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
 		AD45EEB1283E4B81002E2BCE /* ModelDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelDuck.h; sourceTree = "<group>"; };
 		AD45EEB2283E4B81002E2BCE /* ModelDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelDuck.m; sourceTree = "<group>"; };
+		AD4A62C728488EB5004BBDAA /* FacadePattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FacadePattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4A62C928488EB5004BBDAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD4A62CE28488EE8004BBDAA /* HomeTheaterFacade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTheaterFacade.h; sourceTree = "<group>"; };
+		AD4A62CF28488EE8004BBDAA /* HomeTheaterFacade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTheaterFacade.m; sourceTree = "<group>"; };
+		AD4A62D228488F62004BBDAA /* Amplifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Amplifier.h; sourceTree = "<group>"; };
+		AD4A62D328488F62004BBDAA /* Amplifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Amplifier.m; sourceTree = "<group>"; };
+		AD4A62D528488FAF004BBDAA /* Tuner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tuner.h; sourceTree = "<group>"; };
+		AD4A62D628488FAF004BBDAA /* Tuner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tuner.m; sourceTree = "<group>"; };
+		AD4A62D828488FC0004BBDAA /* DvdPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DvdPlayer.h; sourceTree = "<group>"; };
+		AD4A62D928488FC0004BBDAA /* DvdPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DvdPlayer.m; sourceTree = "<group>"; };
+		AD4A62DB28488FCA004BBDAA /* CdPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CdPlayer.h; sourceTree = "<group>"; };
+		AD4A62DC28488FCA004BBDAA /* CdPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CdPlayer.m; sourceTree = "<group>"; };
+		AD4A62DE28488FD8004BBDAA /* Projector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Projector.h; sourceTree = "<group>"; };
+		AD4A62DF28488FD8004BBDAA /* Projector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Projector.m; sourceTree = "<group>"; };
+		AD4A62E12848900F004BBDAA /* TheaterLights.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheaterLights.h; sourceTree = "<group>"; };
+		AD4A62E22848900F004BBDAA /* TheaterLights.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheaterLights.m; sourceTree = "<group>"; };
+		AD4A62E42848902D004BBDAA /* Screen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
+		AD4A62E52848902D004BBDAA /* Screen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Screen.m; sourceTree = "<group>"; };
+		AD4A62E72848903C004BBDAA /* PopcornPopper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopcornPopper.h; sourceTree = "<group>"; };
+		AD4A62E82848903C004BBDAA /* PopcornPopper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopcornPopper.m; sourceTree = "<group>"; };
 		AD5763A22840A0690015D670 /* DecoratorPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DecoratorPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5763A42840A0690015D670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD5763A92840A59A0015D670 /* Beverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Beverage.h; sourceTree = "<group>"; };
@@ -266,6 +305,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AD3D71CB283E3ECB003C0E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4A62C428488EB5004BBDAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -391,6 +437,7 @@
 				ADD75DF728433E65008F1231 /* SingletonPattern */,
 				AD0EEA832845F3DD00B385AB /* CommandPattern */,
 				ADCE15242847421C00C03B50 /* AdapterPattern */,
+				AD4A62C828488EB5004BBDAA /* FacadePattern */,
 				AD3D71CF283E3ECC003C0E2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -405,6 +452,7 @@
 				ADD75DF628433E65008F1231 /* SingletonPattern */,
 				AD0EEA822845F3DD00B385AB /* CommandPattern */,
 				ADCE15232847421C00C03B50 /* AdapterPattern */,
+				AD4A62C728488EB5004BBDAA /* FacadePattern */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -459,6 +507,40 @@
 				AD45EEB2283E4B81002E2BCE /* ModelDuck.m */,
 			);
 			path = Duck;
+			sourceTree = "<group>";
+		};
+		AD4A62C828488EB5004BBDAA /* FacadePattern */ = {
+			isa = PBXGroup;
+			children = (
+				AD4A62C928488EB5004BBDAA /* main.m */,
+				AD4A62CE28488EE8004BBDAA /* HomeTheaterFacade.h */,
+				AD4A62CF28488EE8004BBDAA /* HomeTheaterFacade.m */,
+				AD4A62D128488F34004BBDAA /* Components */,
+			);
+			path = FacadePattern;
+			sourceTree = "<group>";
+		};
+		AD4A62D128488F34004BBDAA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AD4A62D228488F62004BBDAA /* Amplifier.h */,
+				AD4A62D328488F62004BBDAA /* Amplifier.m */,
+				AD4A62D528488FAF004BBDAA /* Tuner.h */,
+				AD4A62D628488FAF004BBDAA /* Tuner.m */,
+				AD4A62D828488FC0004BBDAA /* DvdPlayer.h */,
+				AD4A62D928488FC0004BBDAA /* DvdPlayer.m */,
+				AD4A62DB28488FCA004BBDAA /* CdPlayer.h */,
+				AD4A62DC28488FCA004BBDAA /* CdPlayer.m */,
+				AD4A62DE28488FD8004BBDAA /* Projector.h */,
+				AD4A62DF28488FD8004BBDAA /* Projector.m */,
+				AD4A62E12848900F004BBDAA /* TheaterLights.h */,
+				AD4A62E22848900F004BBDAA /* TheaterLights.m */,
+				AD4A62E42848902D004BBDAA /* Screen.h */,
+				AD4A62E52848902D004BBDAA /* Screen.m */,
+				AD4A62E72848903C004BBDAA /* PopcornPopper.h */,
+				AD4A62E82848903C004BBDAA /* PopcornPopper.m */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		AD5763A32840A0690015D670 /* DecoratorPattern */ = {
@@ -578,6 +660,23 @@
 			productReference = AD3D71CE283E3ECC003C0E2A /* StrategyPattern */;
 			productType = "com.apple.product-type.tool";
 		};
+		AD4A62C628488EB5004BBDAA /* FacadePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4A62CD28488EB5004BBDAA /* Build configuration list for PBXNativeTarget "FacadePattern" */;
+			buildPhases = (
+				AD4A62C328488EB5004BBDAA /* Sources */,
+				AD4A62C428488EB5004BBDAA /* Frameworks */,
+				AD4A62C528488EB5004BBDAA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacadePattern;
+			productName = FacadePattern;
+			productReference = AD4A62C728488EB5004BBDAA /* FacadePattern */;
+			productType = "com.apple.product-type.tool";
+		};
 		AD5763A12840A0690015D670 /* DecoratorPattern */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD5763A82840A0690015D670 /* Build configuration list for PBXNativeTarget "DecoratorPattern" */;
@@ -664,6 +763,9 @@
 					AD3D71CD283E3ECB003C0E2A = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
+					AD4A62C628488EB5004BBDAA = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 					AD5763A12840A0690015D670 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -698,6 +800,7 @@
 				ADD75DF528433E65008F1231 /* SingletonPattern */,
 				AD0EEA812845F3DD00B385AB /* CommandPattern */,
 				ADCE15222847421C00C03B50 /* AdapterPattern */,
+				AD4A62C628488EB5004BBDAA /* FacadePattern */,
 			);
 		};
 /* End PBXProject section */
@@ -757,6 +860,23 @@
 				AD3D71E3283E4206003C0E2A /* Duck.m in Sources */,
 				AD45EEAD283E4A01002E2BCE /* MuteQuack.m in Sources */,
 				AD3D71D2283E3ECC003C0E2A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4A62C328488EB5004BBDAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4A62DA28488FC0004BBDAA /* DvdPlayer.m in Sources */,
+				AD4A62E028488FD8004BBDAA /* Projector.m in Sources */,
+				AD4A62E62848902D004BBDAA /* Screen.m in Sources */,
+				AD4A62E32848900F004BBDAA /* TheaterLights.m in Sources */,
+				AD4A62DD28488FCA004BBDAA /* CdPlayer.m in Sources */,
+				AD4A62E92848903C004BBDAA /* PopcornPopper.m in Sources */,
+				AD4A62D728488FAF004BBDAA /* Tuner.m in Sources */,
+				AD4A62D028488EE8004BBDAA /* HomeTheaterFacade.m in Sources */,
+				AD4A62D428488F62004BBDAA /* Amplifier.m in Sources */,
+				AD4A62CA28488EB5004BBDAA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -977,6 +1097,26 @@
 			};
 			name = Release;
 		};
+		AD4A62CB28488EB5004BBDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD4A62CC28488EB5004BBDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		AD5763A62840A0690015D670 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1092,6 +1232,15 @@
 			buildConfigurations = (
 				AD3D71D6283E3ECC003C0E2A /* Debug */,
 				AD3D71D7283E3ECC003C0E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4A62CD28488EB5004BBDAA /* Build configuration list for PBXNativeTarget "FacadePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4A62CB28488EB5004BBDAA /* Debug */,
+				AD4A62CC28488EB5004BBDAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

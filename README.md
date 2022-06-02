@@ -21,6 +21,8 @@
     * [命令模式](HeadFirstDesignPatternsOC/CommandPattern)
 
     * [适配器模式](HeadFirstDesignPatternsOC/AdapterPattern)
+
+    * [外观模式](HeadFirstDesignPatternsOC/FacadePattern)
     
   * [HEAD FIRST 设计模式 源码Java版](HeadFirstDesignPatternsJava)
 
