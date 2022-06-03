@@ -58,6 +58,10 @@
 		AD4A62E32848900F004BBDAA /* TheaterLights.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62E22848900F004BBDAA /* TheaterLights.m */; };
 		AD4A62E62848902D004BBDAA /* Screen.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62E52848902D004BBDAA /* Screen.m */; };
 		AD4A62E92848903C004BBDAA /* PopcornPopper.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62E82848903C004BBDAA /* PopcornPopper.m */; };
+		AD4A62F12849CC58004BBDAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62F02849CC58004BBDAA /* main.m */; };
+		AD4A62F72849CD9A004BBDAA /* CaffeineBeverage.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62F62849CD9A004BBDAA /* CaffeineBeverage.m */; };
+		AD4A62FA2849CEA4004BBDAA /* Tea.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62F92849CEA4004BBDAA /* Tea.m */; };
+		AD4A62FD2849CEE0004BBDAA /* Coffee.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4A62FC2849CEE0004BBDAA /* Coffee.m */; };
 		AD5763A52840A0690015D670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5763A42840A0690015D670 /* main.m */; };
 		AD5763AB2840A59A0015D670 /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5763AA2840A59A0015D670 /* Beverage.m */; };
 		ADB48FEE283F47FF00EC7289 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48FED283F47FF00EC7289 /* main.m */; };
@@ -101,6 +105,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		AD4A62C528488EB5004BBDAA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AD4A62EC2849CC57004BBDAA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -258,6 +271,14 @@
 		AD4A62E52848902D004BBDAA /* Screen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Screen.m; sourceTree = "<group>"; };
 		AD4A62E72848903C004BBDAA /* PopcornPopper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopcornPopper.h; sourceTree = "<group>"; };
 		AD4A62E82848903C004BBDAA /* PopcornPopper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopcornPopper.m; sourceTree = "<group>"; };
+		AD4A62EE2849CC57004BBDAA /* TemplatePattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TemplatePattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4A62F02849CC58004BBDAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD4A62F52849CD9A004BBDAA /* CaffeineBeverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaffeineBeverage.h; sourceTree = "<group>"; };
+		AD4A62F62849CD9A004BBDAA /* CaffeineBeverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaffeineBeverage.m; sourceTree = "<group>"; };
+		AD4A62F82849CEA4004BBDAA /* Tea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tea.h; sourceTree = "<group>"; };
+		AD4A62F92849CEA4004BBDAA /* Tea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tea.m; sourceTree = "<group>"; };
+		AD4A62FB2849CEE0004BBDAA /* Coffee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coffee.h; sourceTree = "<group>"; };
+		AD4A62FC2849CEE0004BBDAA /* Coffee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coffee.m; sourceTree = "<group>"; };
 		AD5763A22840A0690015D670 /* DecoratorPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DecoratorPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5763A42840A0690015D670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD5763A92840A59A0015D670 /* Beverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Beverage.h; sourceTree = "<group>"; };
@@ -312,6 +333,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AD4A62C428488EB5004BBDAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4A62EB2849CC57004BBDAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -438,6 +466,7 @@
 				AD0EEA832845F3DD00B385AB /* CommandPattern */,
 				ADCE15242847421C00C03B50 /* AdapterPattern */,
 				AD4A62C828488EB5004BBDAA /* FacadePattern */,
+				AD4A62EF2849CC58004BBDAA /* TemplatePattern */,
 				AD3D71CF283E3ECC003C0E2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -453,6 +482,7 @@
 				AD0EEA822845F3DD00B385AB /* CommandPattern */,
 				ADCE15232847421C00C03B50 /* AdapterPattern */,
 				AD4A62C728488EB5004BBDAA /* FacadePattern */,
+				AD4A62EE2849CC57004BBDAA /* TemplatePattern */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -541,6 +571,20 @@
 				AD4A62E82848903C004BBDAA /* PopcornPopper.m */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		AD4A62EF2849CC58004BBDAA /* TemplatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				AD4A62F02849CC58004BBDAA /* main.m */,
+				AD4A62F52849CD9A004BBDAA /* CaffeineBeverage.h */,
+				AD4A62F62849CD9A004BBDAA /* CaffeineBeverage.m */,
+				AD4A62F82849CEA4004BBDAA /* Tea.h */,
+				AD4A62F92849CEA4004BBDAA /* Tea.m */,
+				AD4A62FB2849CEE0004BBDAA /* Coffee.h */,
+				AD4A62FC2849CEE0004BBDAA /* Coffee.m */,
+			);
+			path = TemplatePattern;
 			sourceTree = "<group>";
 		};
 		AD5763A32840A0690015D670 /* DecoratorPattern */ = {
@@ -677,6 +721,23 @@
 			productReference = AD4A62C728488EB5004BBDAA /* FacadePattern */;
 			productType = "com.apple.product-type.tool";
 		};
+		AD4A62ED2849CC57004BBDAA /* TemplatePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4A62F42849CC58004BBDAA /* Build configuration list for PBXNativeTarget "TemplatePattern" */;
+			buildPhases = (
+				AD4A62EA2849CC57004BBDAA /* Sources */,
+				AD4A62EB2849CC57004BBDAA /* Frameworks */,
+				AD4A62EC2849CC57004BBDAA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemplatePattern;
+			productName = TemplatePattern;
+			productReference = AD4A62EE2849CC57004BBDAA /* TemplatePattern */;
+			productType = "com.apple.product-type.tool";
+		};
 		AD5763A12840A0690015D670 /* DecoratorPattern */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD5763A82840A0690015D670 /* Build configuration list for PBXNativeTarget "DecoratorPattern" */;
@@ -766,6 +827,9 @@
 					AD4A62C628488EB5004BBDAA = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
+					AD4A62ED2849CC57004BBDAA = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 					AD5763A12840A0690015D670 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -801,6 +865,7 @@
 				AD0EEA812845F3DD00B385AB /* CommandPattern */,
 				ADCE15222847421C00C03B50 /* AdapterPattern */,
 				AD4A62C628488EB5004BBDAA /* FacadePattern */,
+				AD4A62ED2849CC57004BBDAA /* TemplatePattern */,
 			);
 		};
 /* End PBXProject section */
@@ -877,6 +942,17 @@
 				AD4A62D028488EE8004BBDAA /* HomeTheaterFacade.m in Sources */,
 				AD4A62D428488F62004BBDAA /* Amplifier.m in Sources */,
 				AD4A62CA28488EB5004BBDAA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4A62EA2849CC57004BBDAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4A62FA2849CEA4004BBDAA /* Tea.m in Sources */,
+				AD4A62F12849CC58004BBDAA /* main.m in Sources */,
+				AD4A62F72849CD9A004BBDAA /* CaffeineBeverage.m in Sources */,
+				AD4A62FD2849CEE0004BBDAA /* Coffee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1117,6 +1193,26 @@
 			};
 			name = Release;
 		};
+		AD4A62F22849CC58004BBDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD4A62F32849CC58004BBDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		AD5763A62840A0690015D670 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1241,6 +1337,15 @@
 			buildConfigurations = (
 				AD4A62CB28488EB5004BBDAA /* Debug */,
 				AD4A62CC28488EB5004BBDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4A62F42849CC58004BBDAA /* Build configuration list for PBXNativeTarget "TemplatePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4A62F22849CC58004BBDAA /* Debug */,
+				AD4A62F32849CC58004BBDAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
