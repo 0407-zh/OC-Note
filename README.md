@@ -23,6 +23,10 @@
     * [适配器模式](HeadFirstDesignPatternsOC/AdapterPattern)
 
     * [外观模式](HeadFirstDesignPatternsOC/FacadePattern)
+
+    * [模版模式](HeadFirstDesignPatternsOC/TemplatePattern)
+
+    * [迭代器模式](HeadFirstDesignPatternsOC/IteratorPattern)
     
   * [HEAD FIRST 设计模式 源码Java版](HeadFirstDesignPatternsJava)
 
