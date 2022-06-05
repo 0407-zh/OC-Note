@@ -31,6 +31,11 @@
 		AD16ACC92841B29C005A26DC /* NYPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACC82841B29C005A26DC /* NYPizzaStore.m */; };
 		AD16ACCC2841B574005A26DC /* ChiPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACCB2841B574005A26DC /* ChiPizzaStore.m */; };
 		AD16ACCF2841B5FC005A26DC /* ChiStyleCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = AD16ACCE2841B5FC005A26DC /* ChiStyleCheesePizza.m */; };
+		AD1E5887284C6735004C3761 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1E5886284C6735004C3761 /* main.m */; };
+		AD1E588D284C7D83004C3761 /* MenuComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1E588C284C7D83004C3761 /* MenuComponent.m */; };
+		AD1E5890284C7DAD004C3761 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1E588F284C7DAD004C3761 /* Menu.m */; };
+		AD1E5893284C7EE6004C3761 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1E5892284C7EE6004C3761 /* MenuItem.m */; };
+		AD1E5896284C7F43004C3761 /* Waitress.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1E5895284C7F43004C3761 /* Waitress.m */; };
 		AD2B38662841C4BE00046E6D /* NYPizzaIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2B38652841C4BE00046E6D /* NYPizzaIngredientFactory.m */; };
 		AD2B38692841C50B00046E6D /* ThinCrustDough.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2B38682841C50B00046E6D /* ThinCrustDough.m */; };
 		AD2B38712841C72B00046E6D /* MarinaraSauce.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2B38702841C72B00046E6D /* MarinaraSauce.m */; };
@@ -97,6 +102,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		AD16ACB528411F09005A26DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AD1E5882284C6735004C3761 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -231,6 +245,16 @@
 		AD16ACCE2841B5FC005A26DC /* ChiStyleCheesePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChiStyleCheesePizza.m; sourceTree = "<group>"; };
 		AD16ACD02841C275005A26DC /* PizzaIngredientFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PizzaIngredientFactory.h; sourceTree = "<group>"; };
 		AD16ACD12841C309005A26DC /* Dough.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dough.h; sourceTree = "<group>"; };
+		AD1E5884284C6735004C3761 /* CompositePattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CompositePattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1E5886284C6735004C3761 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD1E588B284C7D83004C3761 /* MenuComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuComponent.h; sourceTree = "<group>"; };
+		AD1E588C284C7D83004C3761 /* MenuComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuComponent.m; sourceTree = "<group>"; };
+		AD1E588E284C7DAD004C3761 /* Menu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		AD1E588F284C7DAD004C3761 /* Menu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		AD1E5891284C7EE6004C3761 /* MenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		AD1E5892284C7EE6004C3761 /* MenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		AD1E5894284C7F43004C3761 /* Waitress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waitress.h; sourceTree = "<group>"; };
+		AD1E5895284C7F43004C3761 /* Waitress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Waitress.m; sourceTree = "<group>"; };
 		AD2B38642841C4BE00046E6D /* NYPizzaIngredientFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYPizzaIngredientFactory.h; sourceTree = "<group>"; };
 		AD2B38652841C4BE00046E6D /* NYPizzaIngredientFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYPizzaIngredientFactory.m; sourceTree = "<group>"; };
 		AD2B38672841C50B00046E6D /* ThinCrustDough.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThinCrustDough.h; sourceTree = "<group>"; };
@@ -366,6 +390,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD1E5881284C6735004C3761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD3D71CB283E3ECB003C0E2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -492,6 +523,22 @@
 			path = FactoryPattern;
 			sourceTree = "<group>";
 		};
+		AD1E5885284C6735004C3761 /* CompositePattern */ = {
+			isa = PBXGroup;
+			children = (
+				AD1E5886284C6735004C3761 /* main.m */,
+				AD1E588B284C7D83004C3761 /* MenuComponent.h */,
+				AD1E588C284C7D83004C3761 /* MenuComponent.m */,
+				AD1E588E284C7DAD004C3761 /* Menu.h */,
+				AD1E588F284C7DAD004C3761 /* Menu.m */,
+				AD1E5891284C7EE6004C3761 /* MenuItem.h */,
+				AD1E5892284C7EE6004C3761 /* MenuItem.m */,
+				AD1E5894284C7F43004C3761 /* Waitress.h */,
+				AD1E5895284C7F43004C3761 /* Waitress.m */,
+			);
+			path = CompositePattern;
+			sourceTree = "<group>";
+		};
 		AD2B386A2841C59700046E6D /* Ingredients */ = {
 			isa = PBXGroup;
 			children = (
@@ -516,6 +563,7 @@
 				AD4A62C828488EB5004BBDAA /* FacadePattern */,
 				AD4A62EF2849CC58004BBDAA /* TemplatePattern */,
 				AD6D46B6284B025B00578052 /* IteratorPattern */,
+				AD1E5885284C6735004C3761 /* CompositePattern */,
 				AD3D71CF283E3ECC003C0E2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -533,6 +581,7 @@
 				AD4A62C728488EB5004BBDAA /* FacadePattern */,
 				AD4A62EE2849CC57004BBDAA /* TemplatePattern */,
 				AD6D46B5284B025B00578052 /* IteratorPattern */,
+				AD1E5884284C6735004C3761 /* CompositePattern */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -765,6 +814,23 @@
 			productReference = AD16ACB728411F09005A26DC /* FactoryPattern */;
 			productType = "com.apple.product-type.tool";
 		};
+		AD1E5883284C6735004C3761 /* CompositePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1E588A284C6735004C3761 /* Build configuration list for PBXNativeTarget "CompositePattern" */;
+			buildPhases = (
+				AD1E5880284C6735004C3761 /* Sources */,
+				AD1E5881284C6735004C3761 /* Frameworks */,
+				AD1E5882284C6735004C3761 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompositePattern;
+			productName = CompositePattern;
+			productReference = AD1E5884284C6735004C3761 /* CompositePattern */;
+			productType = "com.apple.product-type.tool";
+		};
 		AD3D71CD283E3ECB003C0E2A /* StrategyPattern */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD3D71D5283E3ECC003C0E2A /* Build configuration list for PBXNativeTarget "StrategyPattern" */;
@@ -916,6 +982,9 @@
 					AD16ACB628411F09005A26DC = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
+					AD1E5883284C6735004C3761 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 					AD3D71CD283E3ECB003C0E2A = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -965,6 +1034,7 @@
 				AD4A62C628488EB5004BBDAA /* FacadePattern */,
 				AD4A62ED2849CC57004BBDAA /* TemplatePattern */,
 				AD6D46B4284B025B00578052 /* IteratorPattern */,
+				AD1E5883284C6735004C3761 /* CompositePattern */,
 			);
 		};
 /* End PBXProject section */
@@ -1007,6 +1077,18 @@
 				AD2B38712841C72B00046E6D /* MarinaraSauce.m in Sources */,
 				AD16ACCC2841B574005A26DC /* ChiPizzaStore.m in Sources */,
 				AD2B38772841C76900046E6D /* FreshClams.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1E5880284C6735004C3761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1E588D284C7D83004C3761 /* MenuComponent.m in Sources */,
+				AD1E5893284C7EE6004C3761 /* MenuItem.m in Sources */,
+				AD1E5896284C7F43004C3761 /* Waitress.m in Sources */,
+				AD1E5887284C6735004C3761 /* main.m in Sources */,
+				AD1E5890284C7DAD004C3761 /* Menu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1151,6 +1233,26 @@
 			name = Debug;
 		};
 		AD16ACBD28411F09005A26DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD1E5888284C6735004C3761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM9U6GJ233;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD1E5889284C6735004C3761 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1446,6 +1548,15 @@
 			buildConfigurations = (
 				AD16ACBC28411F09005A26DC /* Debug */,
 				AD16ACBD28411F09005A26DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1E588A284C6735004C3761 /* Build configuration list for PBXNativeTarget "CompositePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1E5888284C6735004C3761 /* Debug */,
+				AD1E5889284C6735004C3761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

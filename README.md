@@ -27,6 +27,8 @@
     * [模版模式](HeadFirstDesignPatternsOC/TemplatePattern)
 
     * [迭代器模式](HeadFirstDesignPatternsOC/IteratorPattern)
+
+    * [组合模式](HeadFirstDesignPatternsOC/CompositePattern)
     
   * [HEAD FIRST 设计模式 源码Java版](HeadFirstDesignPatternsJava)
 
