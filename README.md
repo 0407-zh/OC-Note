@@ -101,6 +101,7 @@
     * [解决CocoaPods 安装依赖极慢，超时崩溃方法](https://github.com/yangjunning/issues/issues/216#issue-932307978)
 
   * SwiftPackageManagement
+    * [Xcode设置SPM代理](https://www.bolee.fun/xcode-spm-with-proxy.html)
 
   * Terminal
 
